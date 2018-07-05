@@ -1,0 +1,214 @@
+.myArt-header{
+    height:500px;
+    background-color: #efefef;
+    border-top:1px solid #efefef;
+}
+.sub-header{
+    width: 1000px;
+    margin: 0 auto;
+}
+.dog-box{
+    width: 360px;
+    height: 360px;
+
+    margin: 70px 0 0 330px;
+    img{
+        width: 282px;
+        height: 272px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.myArt-banner{
+    height: 180px;
+    width: 100%;
+    background: url("../../images/saveinfo-bg.jpg") no-repeat 50% 0;
+}
+.myArt-data{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    h2{
+        padding-top: 20px;
+    }
+}
+
+
+.sell-box{
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 600px;
+    padding-top: 30px;
+}
+.sell-box-txt{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0 0%;
+    text-align: center;
+    .name{
+        color: #fff;
+        margin-right: 10px;
+    }
+}
+
+
+.AuctionForm-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    border: 1px solid #eaeaea;
+    margin-bottom: 30px;
+}
+
+.AuctionForm-row--submit {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none
+}
+.AuctionForm-title {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    color: #575553;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.AuctionForm-unit {
+    margin-right: 1.5rem;
+    color: #9c9c9b;
+    font-size: 1.8rem;
+    font-weight: 500
+}
+
+.AuctionForm-button {
+    width: 100%
+}
+
+input[type=number].AuctionForm-value {
+    position: relative;
+    width: 130px;
+    color: #9c9c9b;
+    font-size: 18px;
+    /*border: 1px solid #f3f1ee;*/
+    border:none;
+    border-left:1px solid #eaeaea;;
+    height:60px;
+    text-align: center;
+}
+
+input[type=number].AuctionForm-value:active,input[type=number].AuctionForm-value:focus,input[type=number].AuctionForm-value:hover {
+    color: #2a2825;
+    /*border: 1px solid #e7e6e4;*/
+}
+
+input[type=number].AuctionForm-value::-webkit-inner-spin-button,input[type=number].AuctionForm-value::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+   /* border-left: 1px solid #f3f1ee;*/
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f8f6;
+    background-image: url("../../images/numberBg.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    opacity: 1;
+    cursor: pointer
+}
+
+.AuctionForm-button{
+    background-color: #f8d442;
+    height: 70px;
+    border-radius: 10px;
+    line-height:70px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    &:hover{
+        background-color: #cbae38;
+    }
+
+}
+
+
+/*breed style*/
+.myBre-banner{
+    height: 177px;
+    background: url("../../images/breed-01.png") no-repeat 50% 0;
+}
+.myBreed-data{
+    h2{
+        padding-top: 30px;
+    }
+}
+.breed-tab{
+    display: flex;
+    /*border-bottom: 3px solid #338ea9;;*/
+    margin-top: 57px;
+    span{
+        width: 50%;
+        text-align: center;
+        color: #fff;
+        height: 57px;
+        line-height: 57px;
+        cursor: pointer;
+        &.select{
+            background-color: #338ea9;
+
+        }
+    }
+}
+
+.selfBreed-box{
+    width: 1000px;
+    margin: 0 auto;
+    .txt{
+        font-size: 20px;
+        color: #666;
+        padding: 60px 20px 100px;
+        span{
+            color: #000;
+        }
+    }
+    button{
+        margin-left:300px;
+        width: 400px;
+        margin-bottom: 50px;
+        background-color: #f8d442;
+        height: 70px;
+        border-radius: 10px;
+        line-height:70px;
+        text-align: center;
+        font-size: 20px;
+        color: #644a11;
+        border: none;
+        outline:none;
+        cursor: pointer;
+        &:hover{
+            background-color: #cbae38;
+        }
+    }
+}
+.sell-box-hide,.self-box-hide{
+    display: none;
+}
+

@@ -1,0 +1,183 @@
+.myArt-header{
+    height:500px;
+    background-color: #efefef;
+    border-top:1px solid #efefef;
+}
+.sub-header{
+    width: 1000px;
+    margin: 0 auto;
+}
+.dog-box{
+    width: 360px;
+    height: 360px;
+
+    margin: 70px 0 0 330px;
+    img{
+        width: 282px;
+        height: 272px;
+        position: relative;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+.isMy-dog{
+    .isMy-l{
+        float: left;
+        margin-top: -20px;
+        img{
+            float: left;
+            width: 63px;
+            height: 63px;
+            margin-right: 10px;
+        }
+        .nike-name{
+            float: left;
+            margin-top: 10px;
+            p{
+                &:nth-child(2){
+                    color: #888888;
+                }
+            }
+        }
+    }
+    .isMy-r{
+        float: right;
+        a{
+            float: left;
+            width: 71px;
+            height: 35px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            line-height:34px;
+            padding-left: 10px;
+            margin-left: 10px;
+            &:nth-child(1){
+                background: url("../../images/myArt-01.png") no-repeat;
+            }
+            &:nth-child(2){
+                width:57px;
+                background: url("../../images/myArt-02.png") no-repeat;
+            }
+            &:nth-child(3){
+                background: url("../../images/myArt-03.png") no-repeat;
+            }
+        }
+    }
+    .isMy-r-hide{
+        display: none;
+    }
+}
+
+
+.myArt-banner{
+    height: 234px;
+    width: 100%;
+    background: url("../../images/saveinfo-bg.jpg") no-repeat 50% 0;
+}
+.myArt-data{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    h2{
+        font-size: 36px;
+        padding-top: 50px;
+    }
+    h3{
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    h4{
+        width: 100px;
+        height: 44px;
+        background-color: #ffffff;
+        border-radius: 26px;
+        color: #000;
+        line-height:44px;
+        font-size: 18px;
+        margin-top: 15px;
+        cursor: pointer;
+        margin-left: 450px;
+        span{
+            display: inline-block;
+            background: url("../../images/mydog-03.png") no-repeat;
+            width: 16px;
+            height: 14px;
+        }
+        &:hover span{
+            background: url("../../images/mydog-04.png") no-repeat;
+        }
+    }
+}
+
+.attr-box,.des-box,.par-box{
+    width: 1000px;
+    margin: 0 auto;
+    .title{
+        height: 22px;
+        border-left: 3px solid #534bb9;
+        line-height:22px;
+        font-size:20px;
+        color: #666;
+        padding-left: 12px;
+        margin-top: 70px;
+    }
+}
+.des-txt{
+    color: #888888;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.attr-cont{
+    margin-top: 40px;
+    a{
+        min-width: 120px;
+        height:46px;
+        float: left;
+        margin-right: 12px;
+        line-height:46px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 10px;
+        background-color: #d88bd1;
+        border-radius: 26px;
+        padding: 0 15px;
+        &:nth-child(1){
+            background-color: #ea8996;
+        }
+        &:nth-child(2){
+            background-color: #f0c364;
+        }
+        &:nth-child(3){
+            background-color: #eea863;
+        }
+        &:nth-child(4){
+            background-color: #b38dde;
+        }
+        &:nth-child(5){
+            background-color: #75bceb;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+.par-box{
+    padding-bottom: 50px;
+}
+.father,.monther{
+    float: left;
+    width: 204px;
+    height: 194px;
+    border-radius: 5px;
+    background-color: #d1eeeb;
+    margin-top: 50px;
+}
+.monther{
+    background-color: #dfdffa;
+    margin-left: 20px;
+}

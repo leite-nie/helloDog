@@ -1,0 +1,45 @@
+
+.feedback-sect{
+    padding-left: 0.34rem;
+    padding-right: 0.34rem;
+}
+.feedback-sect .row{
+    margin-top: 0.2rem;
+    line-height: 2.2;
+    font-size: 0.3rem;
+}
+.feedback-sect label{
+    float: left;
+    width: 1.8rem;
+}
+.feedback-sect .cnt{
+    overflow: hidden;
+}
+.feedback-sect .cnt input,
+.feedback-sect .cnt textarea{
+    width: 100%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    font-size: inherit;
+    // line-height: inherit;
+    border: 1px solid #FFA800;
+    outline: 0;
+    padding: 0 0.05rem;
+    border-radius: 0.05rem;
+}
+.feedback-sect .cnt input:focus,
+.feedback-sect .cnt textarea:focus{
+    box-shadow: 0 0 1px 0 #FFA800;
+}
+.feedback-sect .cnt input{
+    height: 0.66rem;
+}
+.feedback-sect .cnt textarea{
+    height: 1.5rem;
+    line-height: 1.5;
+    padding-top: 0.1rem;
+}
+.feedback-sect .row-btn{
+    margin-top: 1rem;
+}

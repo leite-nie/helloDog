@@ -1,0 +1,36 @@
+body{
+    background-color: #fff;
+
+}
+.notice-banner{
+    background: url("../../images/img0327/devLogBg.jpg") no-repeat 50% 0;
+    height: 374px;
+}
+.notice-box{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    min-height: 500px;
+    padding: 10px 45px 60px;
+    color: #000;
+    
+    ul{
+        li{
+            border-bottom: 1px solid #d4d4d4;
+            padding: 25px 0;
+            h3{
+              padding: 20px 0;
+              font-size: 22px;
+              span{
+                float: right;
+                font-size: 18px;
+              }
+            }
+            p{
+              margin-top: 10px;
+            }
+            
+        }
+    }
+}

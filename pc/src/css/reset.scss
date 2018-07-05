@@ -1,0 +1,127 @@
+@charset "UTF-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	font-family: -apple-system,SF UI Display,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+fieldset,img {
+	border: 0
+}
+
+img {
+	display: block
+}
+
+address,caption,cite,code,dfn,th,var {
+	font-style: normal;
+	font-weight: normal
+}
+
+ul,ol {
+	list-style: none
+}
+
+input {
+	padding-top: 0;
+	padding-bottom: 0;
+	font-family: "SimSun","宋体"
+}
+
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+select,input {
+	vertical-align: middle
+}
+
+select,input,textarea {
+	font-size: 12px;
+	margin: 0
+}
+
+input[type="text"],input[type="password"],textarea {
+	outline-style: none;
+	-webkit-appearance: none
+}
+
+textarea {
+	resize: none
+}
+
+table {
+	border-collapse: collapse
+}
+header,nav,main,article,aside,canvas,footer{
+	display: block;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+
+}
+
+.clearfix {
+	zoom:1}
+
+.clearit {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.fl {
+	float: left;
+	_display: inline
+}
+
+.fr {
+	float: right;
+	_display: inline
+}
+a {
+	color: #542900;
+	text-decoration: none
+}
+
+a:visited {
+
+}
+
+a:hover,a:active,a:focus {
+
+	text-decoration: underline
+}
+
+.hidden {
+	visibility: hidden
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+
+em{
+  font-style: normal;
+}
+
+.tips-list-box{
+
+	background-color: #fff;
+	img{
+		margin: 20px auto 0;
+	}
+	p{
+		text-align: center;
+		margin: 20px auto 0;
+		color: red;
+	}
+}
+

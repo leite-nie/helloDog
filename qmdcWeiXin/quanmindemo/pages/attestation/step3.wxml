@@ -1,0 +1,15 @@
+<!--pages/attestation/step3.wxml-->
+<view>
+  <view class='attes-tit'>
+    <image src='../images/step3.png'></image>
+  </view>
+  <view>
+  <view class='attes-tit2'>
+    <image src='../images/ridi-end-tit.png'></image>
+    <text class='tips {{freeEnd == true ? "tips-hide" : ""}}'>免押金体验于<text class='red'>{{freeDepositTxt}}</text>到期</text>
+  </view>
+  </view>
+  <view class='attes-last'>
+      <button bindtap='goRidiing'>立即用车</button>
+  </view>
+</view>

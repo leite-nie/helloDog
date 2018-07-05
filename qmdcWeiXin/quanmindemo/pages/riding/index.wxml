@@ -1,0 +1,43 @@
+<!--pages/riding/index.wxml-->
+
+<!--view>latitude:{{latitude}}</view>
+<view>latitude2:{{latitude2}}</view>
+<view>longitude:{{longitude}}</view>
+<view>longitude2:{{longitude2}}</view-->
+
+<view>
+  <view class='ridi-tit'>
+    <image src='../images/ridi-tit.png'></image>
+    <text>骑行时间</text>
+  </view>
+  <view class='ridi-time'>
+   {{timeCount}}
+  </view>
+  <view class='ridi-box'>
+    <view class='ridi-cont'>
+      <text>{{distance}}</text>
+      <text class='ridi-cont-bott'>骑行距离（m)</text>
+    </view>
+    <view class='ridi-cont'>
+      <text>{{cost}}</text>
+      <text class='ridi-cont-bott'>预计费用（¥)</text>
+    </view>
+    <view class='ridi-center'></view>
+  </view>
+  <view class='pwd-box {{isOfo == true ? "" : "pwd-hide" }}'>
+    <view class='pwd-tit'><text>ofo</text>开锁密码</view>
+    <view class='pwd-list'>
+      <text>{{carPwd1}}</text>
+      <text>{{carPwd2}}</text>
+      <text>{{carPwd3}}</text>
+      <text>{{carPwd4}}</text>
+    </view>
+    <view class='pwd-btn'>
+      <button bindtap='endBike'>结束骑行</button>
+    </view>
+  </view>
+  <view class='ridi-last {{isOfo == true ? "" : "ridi-last2" }}'>
+    <text>手动关锁可以结束费用</text>
+    <text class='ridi-ques' bindtap='quesFunc'>关锁未结束？</text>
+  </view>
+</view>

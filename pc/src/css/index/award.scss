@@ -1,0 +1,87 @@
+body{
+  background: #f8dd6a url("../../images/img0327/explainBg.png") no-repeat 50% 86px;
+}
+.award-wrap{
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 800px;
+}
+.award-box-hide{
+  display: none;
+}
+.award-box{
+  padding-bottom: 50px;
+  h2{
+    color: #7a3f0a;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    padding: 35px 0;
+  }
+  p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 15px;
+    span{
+      float: left;
+      &:nth-child(1){
+        width: 19px;
+        height: 19px;
+        background: url("../../images/img0327/explainTitBg3.png") no-repeat;
+        margin-top: 6px;
+      }
+      &:nth-child(2){
+        width: 960px;
+        margin-left: 20px;
+      }
+      
+    }
+    em{
+      color: red;
+    }
+  }
+}
+.table-box{
+  margin-top: 30px;
+  padding-bottom: 10px;
+  table{
+    width: 100%;
+    text-align: center;
+    color: #542900;
+    tr{
+      height: 52px;
+      background-color: #daab39;
+      border: 2px solid #f8dd6a;
+      &:nth-child(1){
+        background-color: #b07726;
+        font-size: 20px;
+      }
+    }
+    td{
+      border: 2px solid #f8dd6a;
+      &:nth-child(2){
+        min-width: 200px;
+      }
+      &.align-l{
+        text-align: left;
+        
+      }
+    }
+    em{
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      background-color: #bd7206;
+      border-radius: 50%;
+      margin-left: 4px;
+      overflow: hidden;
+      &.plus{
+        background: none;
+        font-size: 16px;
+      }
+      &.first{
+        margin-left: 40px;
+      }
+    }
+  }
+}

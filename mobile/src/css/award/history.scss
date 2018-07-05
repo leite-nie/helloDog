@@ -1,0 +1,100 @@
+.history-wrap{
+  min-height: 100vh;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+  background: #ffa800 url(../../images/award-bd.png) no-repeat left top;
+  background-size: 100% auto;
+}
+.s-wrap{
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+}
+.history-list{
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+// .history-list .tit{
+//   font-size: 0.36rem;
+//   padding-top: 0.5rem;
+//   text-align: center;
+//   color: #333;
+// }
+.search-wrap{
+  text-align: right;
+  font-size: 0.28rem;
+}
+.search-wrap .issue{
+  display: inline-block;
+  border: 2px solid #914400;
+  border-radius: 1rem;
+  padding: 0 0.1rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+.search-wrap .issue input{
+  width: 0.7rem;
+  border: none;
+  background-color: transparent;
+}
+.search-wrap .btn-def{
+  display: inline-block;
+  background-color: #e2680f;
+  padding: 0.04rem 0.24rem 0.03rem;
+  font-size: 0.28rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-left: 0.08rem;
+  vertical-align: top;
+}
+.history-list .list-top{
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+.history-list .list-top li{
+  font-size: 0.3rem;
+  background-color: #914400;
+  color: #ffa505;
+}
+.history-list li{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  font-size: 0.26rem;
+  text-align: center;
+  border-bottom: 1px solid #ffa800;
+}
+.history-list li span{
+  word-wrap: break-word;
+  padding: 0.12rem 0;
+  border-right: 1px solid #ffa800;
+  display: flex;
+  display: -moz-flex;
+  display: -webkit-flex;
+  align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+}
+.history-list .list span{
+  background-color: #ffd686;
+}
+.history-list li .td-1{
+  width: 1rem;
+}
+.history-list li .td-2{
+  width: 2rem;
+}
+.history-list li .td-3{
+  width: 2rem;
+}
+.history-list li .td-4{
+  width: 1rem;
+}
+.history-list li .td-5{
+  width: 1.4rem;
+}
+.history-list li .td-6{
+  flex: 1;
+}

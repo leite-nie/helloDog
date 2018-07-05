@@ -1,0 +1,35 @@
+
+.msg-list .top-title{
+  font-size: 0.32rem;
+  padding: 0.12rem 0.34rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+.msg-list .tit{
+  position: relative;
+  font-size: 0.26rem;
+  color: #888;
+  padding: 0.12rem 0.84rem 0.12rem 0.34rem;
+  line-height: 1.5;
+}
+.msg-list .tit .select{
+  position: absolute;
+  top: 50%;
+  right: 0.34rem;
+  margin-top: -0.25rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../images/icon-add.png);
+  background-size: 0.3rem auto;
+}
+.msg-list li{
+  border-bottom: 1px solid #dfdfdf;
+}
+.msg-list .art{
+  font-size: 0.26rem;
+  color: #888;
+  line-height: 1.8;
+  padding: 0.28rem 0.34rem;
+  display: none;
+}

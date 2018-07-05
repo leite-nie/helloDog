@@ -1,0 +1,487 @@
+
+.list-banner{
+    background: url("../../images/img0327/listBannerBg.png") no-repeat 50% 0;
+    width: 100%;
+    height: 374px;
+    margin: 0 auto;
+}
+.list-banner1{
+  background: url("../../images/img0327/listBannerBg1.jpg") no-repeat 50% 0;
+}
+.filtrate{
+    width: 1668px;
+    margin: 0 auto;
+    padding-top: 66px;
+}
+.filt-top{
+    .l-box{
+        float: left;
+        span{
+            float: left;
+            background-color: #d1d1cf;
+          font-size: 18px;
+          
+            color: #000;
+            line-height: 22px;
+            padding: 16px 28px 16px 100px;
+            border-radius: 32px;
+            box-shadow: 0px 6px 0px #888;
+            margin-right: 30px;
+            position: relative;
+            cursor: pointer;
+            &:before{
+                width: 50px;
+                height: 56px;
+                background: url("../../images/img0327/filtIco2.png") no-repeat;
+                position: absolute;
+                top: -20px;
+                left: 32px;
+                content: "";
+                display: block;
+            }
+            &.select{
+                background-color: #ffc600;
+                box-shadow: 0px 6px 0px #ab880e;
+              font-weight: bold;
+            }
+            &:nth-child(1){
+                &:before{
+                    background: url("../../images/img0327/filtIco1.png") no-repeat;
+                }
+            }
+            &:nth-child(3){
+                &:before{
+                    background: url("../../images/img0327/filtIco3.png") no-repeat;
+                }
+            }
+        }
+    }
+    
+}
+.filt-md{
+  color: #000;
+    font-size: 16px;
+    padding: 30px 0;
+    .total{
+        float: left;
+        span{
+            color: #ef3828;
+        }
+    }
+    .txt{
+        float: right;
+    }
+  .r-box{
+    float: right;
+    line-height:22px;
+    
+    span{
+      margin-left: 40px;
+      
+    }
+    .sort-type{
+      position: relative;
+      .top,.bottom{
+        position: absolute;
+        width: 9px;
+        height: 5px;
+        content: "";
+        display: block;
+        background: url("../../images/img0327/listIcon5.png") no-repeat;
+        right:-15px;
+        top:0px;
+        cursor: pointer;
+      }
+      .bottom{
+        top:10px;
+        transform:rotate(180deg);
+      }
+    }
+    
+  }
+}
+.transaction-text{
+  background-color: #fde8ec;
+  font-size: 22px;
+  color: #e42d27;
+  padding: 32px;
+  width: 1606px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.transaction-text1{
+  margin-top: 30px;
+}
+.filt-bottom{
+    margin-top: 30px;
+    .select {
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        min-width: 100px;
+        padding: 0;
+        overflow: hidden;
+        background: #fff;
+        color: #555;
+        border: 1px solid #aaa;
+        text-shadow: none;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        -moz-transition: box-shadow 0.25s ease;
+        -o-transition: box-shadow 0.25s ease;
+        -webkit-transition: box-shadow 0.25s ease;
+        transition: box-shadow 0.25s ease;
+        margin-right: 20px;
+
+    }
+    .select:hover {
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    }
+    .select:before {
+        position: absolute;
+        top: 10px;
+        right:10px;;
+        pointer-events: none;
+    }
+    .select select {
+        cursor: pointer;
+        padding: 0.5em;
+        padding-right: 2em;
+        border: none;
+        background: transparent;
+        background-image: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        text-indent: 0.01px;
+        text-overflow: '';
+        width: 100%;
+        font-size: 16px;
+    }
+    .select select:focus {
+        outline: none;
+    }
+
+
+    .select:before {
+        font-family: "icons";
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .icon--down:before, .select:before {
+        content: "\e600";
+    }
+
+
+}
+
+.list-box{
+    width: 1668px;
+    margin: 20px auto;
+    position: relative;
+    min-height: 900px;
+    ul{
+        /*padding-bottom: 50px;*/
+        
+        li{
+            position: relative;
+            width: 348px;
+            float: left;
+            margin-right: 92px;
+            margin-top: 40px;
+          &.first,&.second{
+            .img-bg{
+              img{
+                transform: translate(-50%,-49%) scale(.75);
+                width: 400px;
+                height: 428px;
+              }
+            }
+            .dog-attr{
+              span{
+                color: #ffc600;
+              }
+            }
+            
+          }
+            &:nth-child(4n){
+                margin-right: 0;
+            }
+            .dog-attr{
+                font-size: 16px;
+                margin-top: 10px;
+                color: #989898;
+                padding-left: 4px;
+                p{
+                    span{
+                        color: #000;
+                      &.isGen0{
+                        color: red;
+                      }
+                    }
+                    &:nth-child(2){
+                        background: url("../../images/img0327/listIcon3.png") no-repeat 0 3px;
+                        line-height: 22px;
+                        text-indent: 24px;
+                        margin-top: 5px;
+                        display: inline-block;
+                        cursor: pointer;
+                    }
+                  
+                }
+                em{
+                    font-style: normal;
+                    font-size:20px;
+                    font-weight: bold;
+                    padding: 0 5px;
+                }
+            }
+            
+          
+          
+            .img-bg{
+                border-radius: 10px;
+                background-color: #f87575;
+                height: 310px;
+                text-align: center;
+                position: relative;
+                padding-top: 22px;
+             
+              &:before{
+                content: "";
+                position: absolute;
+                background-color: #000;
+                opacity: .3;
+                width: 124px;
+                height:20px;
+                display: block;
+                border-radius: 50%;
+                bottom: 60px;
+                left: 50%;
+                transform: translate(-50%,0);
+              }
+                &:hover{
+                    -webkit-animation: dogFocusIn .25s  forwards;
+                    animation: dogFocusIn .25s  forwards
+                }
+                img{
+                    position: absolute;
+                    top:50%;
+                    left: 50%;
+                    transform: translate(-50%,-48%);
+                    /*width: 148px;
+                    height: 192px;*/
+                    width: 180px;
+                    height: 214px;
+                  /*&:nth-child(1),&:nth-child(2){
+                      transform: translate(-50%,-48%) scale(.8);
+                      width: 360px;
+                      height: 428px;
+                    }*/
+                }
+                .icon{
+                    position: absolute;
+                    background: url("../../images/img0327/listIco2.png");
+                    width: 24px;
+                    height: 24px;
+                    right: 17px;
+                    bottom: 15px;
+                }
+                .txt{
+                    border-radius: 28px;
+                    display: inline-block;
+                    line-height: 28px;
+                    padding: 0 20px;
+                    height: 28px;
+                    text-align: center;
+
+                    background-color:rgba(255, 255, 255, 0.45);;
+
+                    em{
+                        &.type-1{
+                            background: url("../../images/img0327/listIco1-1.png") no-repeat 0 4px;
+                            display: inline-block;
+                            width: 20px;
+                            margin-right: 5px;
+                        }
+                        &.type-2{
+                          background: url("../../images/img0327/listIco1-2.png") no-repeat 0 4px;
+                          display: inline-block;
+                          width: 20px;
+                          margin-right: 5px;
+                        }
+                        &.type-3{
+                          background: url("../../images/img0327/listIco1-3.png") no-repeat 0 4px;
+                          display: inline-block;
+                          width: 20px;
+                          margin-right: 5px;
+                        }
+                        &.type-0{
+                          background: url("../../images/img0327/listIco1-0.png") no-repeat 0 4px;
+                          display: inline-block;
+                          width: 20px;
+                          margin-right: 5px;
+                        }
+                        &:nth-child(2){font-style: normal;}
+                    }
+                }
+                .status{
+                  
+                  height: 24px;
+                  line-height: 24px;
+                  border-radius: 15px;
+                  background-color: #FFFFFF;
+                  opacity: .45;
+                  min-width: 70px;
+                  position: absolute;
+                  bottom: 15px;
+                  left: 50%;
+                  padding: 0 10px;
+                  transform: translate(-50%,0);
+                  
+                  span{
+                    
+                    line-height: 24px;
+                    
+                  }
+                  em{
+                    margin-top: 4px;
+                    margin-right: 6px;
+                    width: 16px;
+                    height: 16px;
+                    background: url("../../images/img0327/listIcon4.png") no-repeat;
+                    float: right;
+                  }
+                }
+            }
+          .img-bg1{
+            background-color: #f87575;
+          }
+          .img-bg2{
+            background-color: #71dabf;
+          }
+          .img-bg3{
+            background-color: #72bddd;
+          }
+          .img-bg4{
+            background-color: #b997eb;
+          }
+          .img-bg5{
+            background-color: #f6d173;
+          }
+          .img-bg6{
+            background-color: #aedc7f;
+          }
+          .img-bg7{
+            background-color: #ed86c8;
+          }
+          .img-bg8{
+            background-color: #74ddd6;
+          }
+          .img-bg9{
+            background-color: #f69e73;
+          }
+          .img-bga{
+            background-color: #7f9edc;
+          }
+          .img-bgb{
+            background-color: #efee8e;
+          }
+          .img-bgc{
+            background-color: #f68cb4;
+          }
+        }
+    }
+}
+
+.beyond{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 145px;
+    height: 145px;
+    margin-left: -72px;
+    padding-top: 65px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .5;
+    transform:rotate(330deg);
+    -o-transform:rotate(330deg); 
+    -ms-transform:rotate(330deg); 
+    -moz-transform:rotate(330deg); 
+    -webkit-transform:rotate(330deg);
+}
+.beyond.beyond-bd-1{
+    background-image: url(../../images/img0327/prize-1.png);
+    color: #b80e0e;
+}
+.beyond.beyond-bd-2{
+    background-image: url(../../images/img0327/prize-2.png);
+    color: #c10d5a;
+}
+.beyond.beyond-bd-3{
+    background-image: url(../../images/img0327/prize-3.png);
+    color: #a215b3;
+}
+.beyond.beyond-bd-4{
+    background-image: url(../../images/img0327/prize-4.png);
+    color: #1d42ac;
+}
+.beyond.beyond-bd-5{
+    background-image: url(../../images/img0327/prize-5.png);
+    color: #08ad2f;
+}
+.beyond.beyond-bd-6{
+    background-image: url(../../images/img0327/prize-6.png);
+    color: #be5a18;
+}
+.beyond.beyond-bd-7{
+    background-image: url(../../images/img0327/prize-7.png);
+    color: #a69a15;
+}
+
+
+
+@font-face {
+    font-family: 'icons';
+    src: url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAARgAAoAAAAABBgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAANgAAADYZbVvCE9TLzIAAAHMAAAAYAAAAGAIIvy2Y21hcAAAAiwAAABMAAAATBpVzFdnYXNwAAACeAAAAAgAAAAIAAAAEGhlYWQAAAKAAAAANgAAADYAl8viaGhlYQAAArgAAAAkAAAAJANuAeZobXR4AAAC3AAAABQAAAAUAwAAdG1heHAAAALwAAAABgAAAAYABVAAbmFtZQAAAvgAAAFFAAABRVcZpu5wb3N0AAAEQAAAACAAAAAgAAMAAAEABAQAAQEBCGljb21vb24AAQIAAQA6+BwC+BsD+BgEHgoAGVP/i4seCgAZU/+LiwwHi2v4lPh0BR0AAAB2Dx0AAAB7ER0AAAAJHQAAAM8SAAYBAQgPERMWG2ljb21vb25pY29tb29udTB1MXUyMHVFNjAwAAACAYkAAwAFAQEEBwoNTPyUDvyUDvyUDvuUDvgg958VgYD7AiOLi4aFg4iEi4SLg46GkYuL+wLzgZaAloqel5eWlpqMmX8I7yvv6wWZl5qKloCXf4p4gIAIDviUFPiUFYsMCgADAgABkAAFAAABTAFmAAAARwFMAWYAAAD1ABkAhAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAEAAAOYAAeD/4P/gAeAAIAAAAAEAAAAAAAAAAAAAACAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAOAAAAAoACAACAAIAAQAg5gD//f//AAAAAAAg5gD//f//AAH/4xoEAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAQAAss1nQF8PPPUACwIAAAAAAM/2xdgAAAAAz/bF2AAAAAABjAE1AAAACAACAAAAAAAAAAEAAAHg/+AAAAIAAAAAAAGMAAEAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAQAAAAIAAHQAAFAAAAUAAAAAAA4ArgABAAAAAAABAA4AAAABAAAAAAACAA4ARwABAAAAAAADAA4AJAABAAAAAAAEAA4AVQABAAAAAAAFABYADgABAAAAAAAGAAcAMgABAAAAAAAKADQAYwADAAEECQABAA4AAAADAAEECQACAA4ARwADAAEECQADAA4AJAADAAEECQAEAA4AVQADAAEECQAFABYADgADAAEECQAGAA4AOQADAAEECQAKADQAYwBpAGMAbwBtAG8AbwBuAFYAZQByAHMAaQBvAG4AIAAxAC4AMABpAGMAbwBtAG8AbwBuaWNvbW9vbgBpAGMAbwBtAG8AbwBuAFIAZQBnAHUAbABhAHIAaQBjAG8AbQBvAG8AbgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@-webkit-keyframes dogFocusIn {
+    0% {
+
+        transform: scale(1)
+    }
+
+    to {
+
+        transform: scale(.97)
+    }
+}
+
+@keyframes dogFocusIn {
+    0% {
+
+        transform: scale(1)
+    }
+
+    to {
+
+        transform: scale(.97)
+    }
+}

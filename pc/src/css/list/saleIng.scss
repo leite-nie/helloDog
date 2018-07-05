@@ -1,0 +1,188 @@
+body{
+    background-color: #efefef;
+}
+.sale-top{
+    height: 374px;
+    background-image: url(../../images/img0327/petInfo-ban-bd.png);
+    background-repeat: repeat;
+}
+.sale-box{
+    height: 1020px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.sub-sale{
+
+    position: absolute;
+    width: 1090px;
+    min-height: 566px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 50px 55px;
+    left: 0;
+    top: -256px;
+    text-align: center;
+    .step{
+        height: 56px;
+        background-color: #f2f2f2;
+        border-radius: 30px;
+        border:1px solid #f2f2f2;
+        span{
+            display: inline-block;
+            width: 33%;
+            height: 28px;
+            line-height: 28px;
+            margin-top: 14px;
+            color: #565656;
+            font-size: 18px;
+            em{
+                font-style: normal;
+                display: inline-block;
+                height: 28px;
+                padding-left: 34px;
+                background:  url("../../images/img0327/saleIco1.png") no-repeat;
+
+
+            }
+            &:nth-child(2),&:nth-child(1){
+                background: url("../../images/img0327/saleIco4.png") no-repeat 100% 0;
+
+            }
+            &:nth-child(1){
+                color: #d73d3d;
+            }
+            &:nth-child(2){
+                em{
+                    background:  url("../../images/img0327/saleIco2.png") no-repeat;
+                }
+            }
+            &:nth-child(3){
+                em{
+                    background:  url("../../images/img0327/saleIco3.png") no-repeat;
+                }
+            }
+        }
+    }
+    .img-box{
+        text-align: center;
+        padding-top: 50px;
+        img{
+            margin: 0 auto;
+        }
+        h2{
+            font-size: 26px;
+            padding-top: 30px;
+        }
+        h3{
+            padding-top: 10px;
+            font-size: 18px;
+            color: #565656;
+            &.isGen0{
+              color: red;
+            }
+        }
+        p{
+            padding: 30px 100px;
+        }
+    }
+}
+.amount-box{
+    padding: 0 100px;
+    .AuctionForm-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+
+        border-bottom: 2px solid #efefef;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .AuctionForm-row--submit {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: none
+    }
+    .AuctionForm-title {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        color: #575553;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .AuctionForm-unit {
+        margin-right: 1.5rem;
+        color: #cdcdcd;
+        font-size: 20px;
+        font-weight: 500
+    }
+
+    .AuctionForm-button {
+        width: 100%
+    }
+
+    input[type=number].AuctionForm-value {
+        position: relative;
+        width: 130px;
+        color: #9c9c9b;
+        font-size: 18px;
+        border: 2px solid #efefef;
+        border-radius: 5px;
+
+        height:60px;
+        text-align: center;
+    }
+
+    input[type=number].AuctionForm-value:active,input[type=number].AuctionForm-value:focus,input[type=number].AuctionForm-value:hover {
+        color: #2a2825;
+        /*border: 1px solid #e7e6e4;*/
+    }
+
+    input[type=number].AuctionForm-value::-webkit-inner-spin-button,input[type=number].AuctionForm-value::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        /* border-left: 1px solid #f3f1ee;*/
+        position: absolute;
+        width: 20px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #f9f8f6;
+        background-image: url("../../images/img0327/saleIco5.png");
+        background-repeat: no-repeat;
+        background-position: 50%;
+
+        opacity: 1;
+        cursor: pointer
+    }
+
+    .AuctionForm-button{
+        background-color: #ffc600;
+        font-size: 22px;
+        color: #000;
+        line-height: 22px;
+        padding: 20px 60px;
+        border-radius: 32px;
+        box-shadow: 0px 6px 0px #ab880e;
+        margin: 50px 0;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        &:hover{
+
+        }
+
+    }
+
+}

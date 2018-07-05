@@ -1,0 +1,89 @@
+
+
+
+.list-wrap .tab{
+  padding: 0.12rem 0.3rem 0;
+  border-bottom: 0.04rem solid #914400;
+  background-color: #ffa800;
+  height: 0.52rem;
+  overflow: hidden;
+}
+.list-wrap .tab ul{
+  overflow: hidden;
+}
+.list-wrap .tab li{
+  width: 20%;
+  float: left;
+  // height: 0.52rem;
+  line-height: 0.56rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #914400;
+}
+.list-wrap .tab li:active,
+.list-wrap .tab .active{
+  color: #fff;
+  background-color: #914400;
+  border-top-left-radius: 0.12rem;
+  border-top-right-radius: 0.12rem;
+}
+.list-view{
+  background-color: #fff;
+  font-size: 0.24rem;
+  color: #888;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  // padding-top: 0.3rem;
+}
+.list-view .top{
+  margin-top: 0.15rem;
+  overflow: hidden;
+}
+.list-view .total{
+  float: left;
+}
+.list-view .tips{
+  float: right;
+}
+.list-view .sort{
+  float: right;
+  padding-right: 0.2rem;
+  background: url(../../images/icon-sort.png) no-repeat right center;
+  background-size: 0.12rem auto;
+}
+.list-view ul{
+  margin-top: 0.28rem;
+}
+.list-view .item-view{
+  float: left;
+  margin-bottom: 0.28rem;
+}
+.handle-earnings .row{
+  font-size: 0.28rem;
+  line-height: 1;
+  padding: 0.15rem 0;
+  border-bottom: 1px solid #eee;
+}
+.handle-earnings .row .tips2{
+  margin-top: 10px;
+  color: red;
+}
+.handle-earnings .btn-def{
+  float: right;
+  margin-left: 0.16rem;
+  font-size: inherit;
+  line-height: 1.8;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0 0.35rem;
+  border: 0;
+}
+.handle-earnings .txt{
+  padding-top: 0.08rem;
+  color: #ffa800;
+}
+.handle-earnings .txt .stg{
+  color: #914400;
+  font-size: 0.26rem;
+  // margin-left:0.32rem;
+}

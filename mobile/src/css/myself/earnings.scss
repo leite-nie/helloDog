@@ -1,0 +1,62 @@
+.earnings-wrap{
+
+}
+
+.earnings-list{
+  padding-left: 0.34rem;
+  padding-top: 0.14rem;
+  padding-right: 0.34rem;
+}
+.earnings-list li{
+  padding: 0.32rem 0;
+  font-size:0.28rem;
+  color: #914400;
+  line-height: 1.4;
+  border-bottom: 1px solid #dfdfdf;
+}
+.no-data{
+  padding-top: .34rem;
+  font-size:0.28rem;
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+}
+
+
+.earnings-wrap .tab {
+  padding: 0.38rem 0.3rem 0;
+  border-bottom: 0.04rem solid #914400;
+  background-color: #ffa800; }
+
+.earnings-wrap .tab ul {
+  overflow: hidden; }
+
+.earnings-wrap .tab li {
+  width: 25%;
+  float: left;
+  // height: 0.52rem;
+  line-height: 0.56rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #914400;
+  cursor: pointer;
+}
+
+.earnings-wrap .tab li:active,
+.earnings-wrap .tab .active {
+  color: #fff;
+  background-color: #914400;
+  border-top-left-radius: 0.12rem;
+  border-top-right-radius: 0.12rem; }
+
+.pull-load-head{
+  transform: translate3d(0px, -0%, 0px);
+ 
+}
+
+
+
+
+
+
+
+

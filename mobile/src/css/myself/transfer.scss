@@ -1,0 +1,79 @@
+.transfer-wrap{
+  
+  .top{
+    margin: 0 .35rem;
+    padding: .2rem 0;
+    position: relative;
+    border-bottom: 0.02rem solid #eee;
+    span{
+      color: #592900;
+      font-size: .36rem;
+      font-weight: bold;
+      margin-left: .6rem;
+    }
+    i{
+      font-style: normal;
+      font-size: .32rem;
+      padding-left: .2rem;
+      color: #ee9e04;
+    }
+    &:before{
+      position: absolute;
+      width: .55rem;
+      height: .55rem;
+      content: "";
+      top: .1rem;
+      left: 0;
+      background: url(../../images/transfer.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    
+  }
+  .title{
+    color: #572901;
+    font-size: .28rem;
+    padding: .8rem .35rem .3rem;
+    span{
+      float: right;
+    }
+  }
+  .tips{
+    margin: .3rem .35rem 0;
+    font-size: .28rem;
+    color: red;
+  }
+  .input{
+    height: 1.04rem;
+    background-color: #f8f7f5;
+    position: relative;
+    input{
+      outline: none;
+      border: none;
+      background-color:#f8f7f5;
+      font-size: .3rem;
+      padding: .31rem .35rem;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+    }
+    span{
+      position: absolute;
+      right: .35rem;
+      font-size: .3rem;
+      color: #914400;
+      padding: .31rem 0;
+    }
+  }
+  .btn{
+    background-color: #ffa800;
+    font-size: .36rem;
+    padding: .2rem 0;
+    border-radius: .5rem;
+    outline: none;
+    border:none;
+    width: 6.8rem;
+    color: #fff;
+    margin:  .5rem .35rem;
+  }
+}

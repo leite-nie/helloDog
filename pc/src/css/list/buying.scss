@@ -1,0 +1,237 @@
+
+a:active,
+a:focus{
+    text-decoration: none;
+}
+.vertical{
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+}
+.banner{
+    height: 374px;
+    background-image: url(../../images/img0327/petInfo-ban-bd.png);
+    background-repeat: repeat;
+}
+.buying-lay{
+    background-color: #efefef;
+    margin-bottom: -87px;
+}
+.buying-lay .wrap{
+    position: relative;
+    top: -256px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px 52px 100px;
+    border-radius: 24px;
+    background-color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.buying-lay .tit{
+    font-size: 32px;
+    color: #000;
+    line-height: 1;
+}
+.summary{
+    text-align: center;
+    // margin-top: 98px;
+}
+.summary img{
+    width: 243px;
+    height: 286px;
+    margin: 0 auto;
+}
+.summary .special-pic img{
+    margin-top: -60px;
+    width: 400px;
+    height: 428px;
+}
+.summary .tit{
+    font-size: 28px;
+    margin-top: 30px;
+}
+.summary .tit-sub{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1;
+    color: #989898;
+    margin-top: 25px;
+}
+.summary .tit-sub span {
+    margin-right: 12px; 
+}
+.summary .tit-sub span:first-child:after,
+.summary .tit-sub span:nth-child(2):after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 12px; 
+}
+.summary .tit-sub .icon-hint {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-left: 12px;
+    background: url(../../images/img0327/icon-hint.png) no-repeat center center;
+    vertical-align: top; 
+}
+.summary .tit-sub .rest{
+    cursor: pointer;
+}
+.summary .hint-box{
+    position: absolute;
+    width: 240px;
+    left: 100%;
+    top: -20px;
+    text-align: left;
+    padding: 12px 22px;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    font-size: 12px;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -webkit-transition: all 0.25s ease-in;
+    background-color: #fff;
+}
+.summary .hint-box:before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -7px;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    border-width: 8px 7px 7px 6px;
+    border-style: solid;
+    border-color: transparent #D4D4D4 transparent transparent;
+}
+.summary .hint-box:after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -6px;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    border-width: 8px 7px 7px 6px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+}
+.summary .rest:hover + .hint-box{
+    opacity: 1;
+    z-index: 1;
+}
+.summary .hint-box .hint-tit{
+    font-size: 14px;
+    color: #000;
+}
+.summary .hint-box .hint-txt{
+    font-size: 12px;
+    line-height: 1.77;
+    color: #989898;
+    margin-top: 10px;
+}
+.summary .hint-box .hint-list{
+    margin-top: 10px;
+}
+.summary .hint-box li{
+    margin-bottom: 10px;
+}
+.summary .hint-box .active{
+    color: #000;
+}
+.summary .hint-box .time{
+    font-style: normal;
+    float: right;
+}
+.gem {
+    // margin-top: 88px; 
+    margin-top: 70px; 
+}
+.gem ul {
+    margin-top: 33px;
+    overflow: hidden; 
+}
+.gem li {
+    float: left;
+    margin-right: 37px; 
+}
+.gem li:nth-child(7n){
+    margin-right: 0;
+}
+.gem img {
+    width: 123px;
+    height: 123px; 
+}
+.price{
+    text-align: center;
+    font-size: 32px;
+    line-height: 1;
+    color: #000;
+    margin-top: 135px;
+}
+.price span{
+    color: #D73D3D;
+    margin-left: 10px;
+}
+.btn-wrap{
+    text-align: center;
+    margin-top: 105px;
+}
+.btn-wrap a{
+    display: inline-block;
+    font-size: 24px;
+    color: #000;
+    background-color: #FEDB00;
+    border-radius: 100px;
+    width: 306px;
+    height: 62px;
+    line-height: 62px;
+    box-shadow: 0 6px 0 #A99309;
+    margin: 0 32px;
+    cursor: pointer;
+}
+.btn-wrap .btn-back{
+    background-color: #D1D1CF;
+    box-shadow: 0 6px 0 #888888;
+}
+.btn-wrap a:hover{
+    text-decoration: none;
+}
+.hint{
+    font-size: 18px;
+    color: #989898;
+    text-align: center;
+    margin-top: 72px;
+}
+
+
+.wrap-gens .tit{
+  color: #ffc600 ;
+}
+.wrap-gens .tit-sub span:nth-child(1){
+  color: #ffc600 ;
+}
+.wrap-gens .tit-sub  span.isGen0{
+  color: red;
+}
+.wrap .tit-sub  span.isGen0{
+  color: red;
+}

@@ -1,0 +1,235 @@
+
+
+.invite-ban{
+  height: 2.06rem;
+  background: url(../../images/invite1.jpg) no-repeat center top;
+  background-size: 100% auto;
+}
+.invite-box{
+  padding: 0 .35rem;
+  position: relative;
+  .top-left{
+    float: left;
+    padding: .22rem 0;
+    position: relative;
+    padding-left: .5rem;
+    font-size: .32rem;
+    line-height: 1;
+    
+    color: #924501;
+    &:before{
+      position: absolute;
+      width: .33rem;
+      height: .32rem;
+      content: "";
+      top: .2rem;
+      left: 0;
+      background: url(../../images/icon-wallet2.png) no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  .top-rgt{
+    float: right;
+    padding: .22rem 0;
+    span{
+      color: #592900;
+      font-size: .32rem;
+      font-weight: bold;
+      &:before{
+        display: inline-block;
+        position: relative;
+        top: 0.04rem;
+        width: .32rem;
+        height: .32rem;
+        content: "";
+        background: url(../../images/transfer.png) no-repeat center;
+        background-size: 100% auto;
+      }
+    }
+    i{
+      font-style: normal;
+      font-size: .32rem;
+      padding-left: .2rem;
+      color: #ee9e04;
+    }
+  }
+  .getOgc-box{
+    height: 2.7rem;
+    background: url("../../images/invite2.jpg") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    h2{
+      padding-top: .45rem;
+      font-size: .6rem;
+      color: #592900;
+      i{
+        font-size: .32rem;
+        color: #ee9e04;
+        font-style: normal;
+      }
+    }
+    h3{
+      color: #974803;
+      padding-top: .1rem;
+      
+    }
+    button{
+      outline: none;
+      border: none;
+      background-color: #ffa800;
+      font-size: .3rem;
+      padding: .15rem .5rem;
+      border-radius: .5rem;
+      margin-top: .2rem;
+      margin-left: .20rem;
+      margin-right: .20rem;
+      color: #fff;
+      &.noclick{
+        background-color: #e9e9e9;
+        color: #592900;
+      }
+    }
+  }
+  .ogc-txt{
+    color: #592900;
+    font-size: .3rem;
+    text-align: center;
+    padding: .3rem 0 .2rem;
+    font-weight: 700;
+  }
+  .ogc-list{
+    color: #974803;
+    font-size: .28rem;
+    padding: .3rem 0;
+    display: flex;
+    border-top: .02rem solid #eee;
+    border-bottom: .02rem solid #eee;
+    p{
+      flex: 1;
+    }
+    span{
+    
+    }
+    em{
+      font-style: normal;
+      color: #ffa800;
+      margin-left: .1rem;
+    }
+  }
+  .ogc-tips{
+    color: red;
+    margin-top: 0.2rem;
+    font-size: 0.28rem;
+  }
+  .user-invite-code{
+    color: #592900;
+    font-size: .28rem;
+    span{
+      float: right;
+      position: relative;
+      top: -0.1rem;
+      background-color: #ffa800;
+      font-size: .3rem;
+      padding: .1rem .4rem;
+      border-radius: .5rem;
+      color: #fff;
+    }
+    .code{
+      margin-top: .5rem;
+      em{
+        font-style: normal;
+        padding: .1rem 0;
+        padding-right:.2rem;
+      }
+      i{
+        font-style: normal;
+        padding: .1rem .3rem;
+        background-color: #e9e9e9;
+      }
+    }
+  }
+  .share-btn{
+    background-color: #ffa800;
+    font-size: .36rem;
+    padding: .2rem 0;
+    border-radius: .5rem;
+    outline: none;
+    border:none;
+    width: 100%;
+    margin-top: .5rem;
+    color: #fff;
+  }
+  .share-text{
+    font-size: .28rem;
+    text-align: center;
+    margin-top: .3rem;
+  }
+}
+
+
+
+
+
+
+/*
+.s-wrap{
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+}
+.invite-rate{
+  margin-top: 0.42rem;
+}
+.invite-rate .tit{
+  position: relative;
+  font-size:0.3rem;
+  text-align: center;
+}
+.invite-rate .tit:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 0.02rem;
+  background-color: #ffa800;
+}
+.invite-rate .tit span{
+  position: relative;
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  background: #fff url(../../images/invite-tit-bd.png) no-repeat center;
+  background-size: 1.5rem auto;
+  z-index: 1;
+}
+.invite-rate .txt{
+  font-size: 0.28rem;
+  text-align: center;
+  margin-top: 0.62rem;
+  color: #914400;
+}
+.invite-rate .rate-wrap{
+  margin-top: 0.32rem;
+  margin-bottom: 1rem;
+  font-size: 0.26rem;
+}
+.invite-rate .rate-wrap span{
+  display: block;
+}
+.invite-rate .rate-wrap .total{
+  float: right;
+}
+.invite-rate .rate-wrap .fill{
+  height: 0.2rem;
+  background-color: #ffa800;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+.invite-art{
+  font-size:0.3rem;
+  color: #914400;
+  line-height: 1.4;
+}
+.invite-wrap .btn-wrap{
+  margin-top: 0.45rem;
+  padding-bottom: 0.2rem;
+}*/

@@ -1,0 +1,59 @@
+html,body{
+	height: 100%;
+}
+input::-webkit-input-placeholder {
+	color: #c7c7c7;
+	
+}
+input::-moz-placeholder {
+	color: #c7c7c7;
+	
+}
+.import-wallet-wrap{
+	padding: 0 .35rem;
+	h2{
+		color: #592900;
+		font-size: .4rem;
+		padding: .6rem 0;
+		float: left;
+		width: 98%;
+	}
+	p{
+		color: #888888;
+		font-size: .3rem;
+		padding-bottom: .7rem;
+		float: left;
+		width: 98%;
+	}
+	h3{
+		color: #ffa800;
+		font-size: .26rem;
+		float: left;
+		width: 98%;
+	}
+	input{
+		height: .8rem;
+		border: 1px solid #ffa800;
+		color: #000;
+		line-height: .8rem;
+		font-size: .28rem;
+		width: 6.5rem;
+		border-radius: 5px;
+		outline: none;
+		padding-left: .28rem;
+		float: left;
+		margin: .3rem 0;
+		
+	}
+	button{
+		outline: none;
+		height: .8rem;
+		background-color: #ffcb66;
+		border-radius: 5px;
+		line-height: .8rem;
+		font-size: .26rem;
+		color: #fff;
+		border: none;
+		width: 100%;
+	}
+}

@@ -1,0 +1,109 @@
+body{
+  background-color: #f8dd6a;
+  
+}
+.transfer-top{
+  width: 1000px;
+  margin: 0 auto;
+  h2{
+    font-size: 38px;
+    padding-top: 50px;
+    text-align: center;
+    color: #000000;
+  }
+}
+.notice-box{
+  width: 750px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-height: 500px;
+  padding: 35px 45px 60px;
+  h2{
+    font-size: 28px;
+    border-bottom: 2px solid #d4d4d4;
+    padding-bottom: 25px;
+    color: #000;
+  }
+  .tit-1{
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+    background: url("../../images/img0327/transfer1.png") no-repeat;
+    padding-left: 40px;
+    color: #ff2f51;
+    font-size: 22px;
+    span{
+      color: #3a3a3a;
+      font-size: 18px;
+    }
+  }
+  .input-list{
+    display: flex;
+    input{
+      font-size: 18px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #dedede;
+      flex: 1;
+      border-radius: 10px;
+      padding: 15px;
+      
+    }
+  }
+  .list-1{
+    margin-top: 20px;
+  }
+  .list-2{
+    margin-top: 10px;
+    position: relative;
+    span{
+      position: absolute;
+      height: 52px;
+      padding: 0 15px;
+      cursor: pointer;
+      top: 0;
+      right: 0;
+      line-height: 52px;
+      color: #989898;
+    }
+  }
+  .tips{
+    font-size: 16px;
+    color: #ec8585;
+    margin-top: 10px;
+  }
+  .tit-2{
+    margin-top: 50px;
+    font-size: 16px;
+    .l{
+      float: left;
+      color: #484848;
+    }
+    .r{
+      float: right;
+      color: #989898;
+    }
+  }
+  .btn{
+    span{
+      width: 100%;
+      font-size: 24px;
+      color: #000;
+      background-color: #FEDB00;
+      border-radius: 100px;
+      display: inline-block;
+      height: 52px;
+      line-height: 52px;
+      box-shadow: 0 6px 0 #A99309;
+      text-align: center;
+      cursor: pointer;
+      margin-top: 50px;
+    }
+  }
+}
+
+.transferList-box{
+
+}

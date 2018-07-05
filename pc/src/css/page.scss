@@ -1,0 +1,89 @@
+/*page style*/
+.paginationDiv {
+    display: block;
+    font-size: 16px;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;   
+  
+}
+
+.paginationDiv a {
+    float: left;
+
+    padding: 0 10px;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.paginationDiv .next,.paginationDiv .prev {
+    /*background-color: #f3f4f8;
+    border: 1px solid #e5e5e5*/
+}
+.leftDiv{
+  float: right;
+  margin-right: 30px;
+  padding-top: 4px;
+}
+.rightDiv{
+  float: right;
+}
+.paginationDiv .next:hover,.paginationDiv .prev:hover {
+    /*background-color: #ddd;
+    border: 1px solid #ddd*/
+}
+
+.paginationDiv .next:before,.paginationDiv .prev:before {
+    content: '<';
+    font-size: 16px
+}
+
+.paginationDiv .disable.next,.paginationDiv .prev.disable {
+    /*background-color: #f3f4f8;
+    border-color: #e5e5e5;*/
+    cursor: no-drop
+}
+
+.paginationDiv .disable.next:before,.paginationDiv .prev.disable:before {
+   /* color: #a0a0a0;
+    border-color: #337ab7*/
+}
+
+.paginationDiv .next:before {
+    content: '>'
+}
+
+.paginationDiv .num {
+   /* margin-left: -1px;*/
+    padding: 0 10px;
+    /*border: 1px solid #e5e5e5;*/
+    color: #000
+}
+
+.paginationDiv .num.current {
+    background-color: #ffde00;
+    /*border-color: #337ab7;*/
+    color: #fff
+}
+
+.paginationDiv .num:hover {
+    /*background-color: #ddd;
+    border-color: #ddd;
+    color: #1a1a1a*/
+}
+
+.paginationDiv .ellipsis {
+    width: 42px;
+    height: 30px;
+    color: #707070;
+    line-height: 30px
+}
+
+.paginationDiv input {
+    width: 44px;
+    height: 24px;
+    border: 1px solid #eee;
+    text-align: center
+}

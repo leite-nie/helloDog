@@ -1,0 +1,26 @@
+<!--pages/riding/ridingend.wxml-->
+
+<view>
+  <view class='ridi-tit'>
+    <image src='../images/ridi-end-tit.png'></image>
+  </view>
+  <view class='ridi-text'>
+    <text>¥</text>
+    <text class='ridi-money'>{{cost}}</text>
+  </view>
+  <view class='ridi-box'>
+    <view class='ridi-cont'>
+      <text>{{ridiTime}}</text>
+      <text class='ridi-cont-bott'>骑行时间（m)</text>
+    </view>
+    <view class='ridi-cont'>
+      <text>{{money}}</text>
+      <text class='ridi-cont-bott'>账户余额（¥)</text>
+    </view>
+    <view class='ridi-center'></view>
+  </view>
+  <view class='ridi-last'>
+    <button bindtap="toBike">继续用车</button>
+  </view>
+</view>
+

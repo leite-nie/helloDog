@@ -1,0 +1,96 @@
+
+.s-wrap{
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+}
+.mat-tit{
+  margin-top: 0.45rem;
+  font-size: 0.4rem;
+  color: #592900;
+  text-align: center;
+}
+.mat-parents{
+  position: relative;
+  margin-top: 0.6rem;
+}
+.mat-parents .cell{
+  width: 3.25rem;
+  float: left;
+}
+.mat-parents .top-hint .stg{
+  color: #FF9500;
+}
+.mat-parents .cell .pic{
+  height: 3.22rem;
+  border-radius: 0.12rem;
+  margin-top: 0.1rem;
+}
+.mat-parents .cell .pic-empty{
+  font-size: 0.32rem;
+  color: #888;
+  border: 1px dotted #d0d0d0;
+}
+.mat-parents .cell:first-child{
+  margin-right: 0.3rem;
+}
+.mat-parents .cell img{
+  width: 2.2rem;
+  height: 2.62rem;
+}
+.mat-parents .top-hint{
+  height: 1rem;
+  font-size: 0.32rem;
+  color: #592900;
+  text-align: center;
+  line-height: 1.5;
+}
+.mat-parents .info{
+  font-size: 0.28rem;
+}
+.mat-parents .info-name{
+  color: #000;
+  margin-top: 0.2rem;
+  margin-bottom: 0.1rem;
+}
+.mat-parents .info-sub i{
+  color: #989898;
+  font-style: normal;
+}
+.mat-parents .info-sub i + i:before{
+  content: '';
+  display: inline-block;
+  width: 0.04rem;
+  height: 0.04rem;
+  border-radius: 1rem;
+  background-color: #989898;
+  margin: 0 0.12rem;
+  vertical-align: middle;
+}
+.mat-parents .heart{
+  position: absolute;
+  top: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  width: 0.67rem;
+  height: 0.58rem;
+  background: url(../../images/heart.png) no-repeat center;
+  background-size: 0.67rem auto;
+}
+.mat-hint{
+  font-size: 0.32rem;
+  color: #888;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+.mating-wrap .btn-wrap{
+  margin-top: 0.5rem;
+}
+.mating-wrap .list-view{
+  margin-top: 0.4rem;
+}
+.list-view .item-view {
+  float: left;
+  margin-bottom: 0.28rem; 
+}
+

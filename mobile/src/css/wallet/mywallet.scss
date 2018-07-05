@@ -1,0 +1,498 @@
+html,body,#app{
+  background-color: #fff;
+  height: 100%;
+  color: #592900;
+  overflow: hidden;
+  width: 100%;
+  font-size: 12px;
+}
+#app>div{
+  height: 100%;
+}
+.my-wallet-box{
+
+}
+.my-wallet-wrap{
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  .top{
+    display: flex;
+    border-bottom: 1px solid #dfdfdf;
+    padding: .8rem 0;
+    margin: 0 .35rem;
+    .img-btn{
+      width: 50%;
+      text-align: center;
+      img{
+        width: 1.4rem;
+        height: 1.4rem;
+      }
+      p{
+        font-size: .28rem;
+        color: #888;
+        padding-top: .2rem;
+      }
+    }
+  }
+  ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    padding: 0 .35rem;
+    li{
+      border-bottom: 1px solid #dfdfdf;
+      height: 1.1rem;
+      position: relative;
+      font-size: .32rem;
+      vertical-align: middle;
+      &:nth-child(4),&:nth-child(5),&:nth-child(6){
+        cursor:pointer;
+      }
+      p{
+        &.gray{
+          color: #888;
+        }
+        line-height: 1.1rem;
+        width: 5rem;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+      span{
+        position: absolute;
+        height: .32rem;
+        top:50%;
+        right: 0;
+        transform: translate(0,-50%);
+        &.address{
+          width: 2rem;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+        }
+      }
+      em{
+        position: absolute;
+        height: .24rem;
+        width: .13rem;
+        background: url("../../images/wallet-my-4.png") no-repeat;
+        background-size: 100% 100%;
+        top:50%;
+        right: 0;
+        transform: translate(0,-50%);
+        &.last{
+          background: url("../../images/wallet-my-5.png") no-repeat;
+          background-size: 100% 100%;
+          width: .32rem;
+          height: .32rem;
+        }
+      }
+    }
+  }
+}
+.lock-screen{
+  width: 7.5rem;
+  height: 100%;
+  background-color: #000;
+  opacity:.5;
+  position: absolute;
+  z-index: 100;
+  top:0;
+  left: 0;
+  
+}
+.back-privateKey{
+  height: 55%;
+  background-color: #fff;
+  width: 7.5rem;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  z-index: 101;
+  left: 0;
+  bottom: 0;
+  transition: all .5s ease;
+  h2{
+    font-size:.36rem;
+    color: #592900;
+    padding: .35rem;
+  }
+  .text{
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    color: #888;
+    font-size: .3rem;
+    padding: .35rem .35rem;
+    p{
+      &:nth-child(2){
+        color: #666;
+        padding-top: .2rem;
+      }
+    }
+    .my-key{
+      padding-top: .3rem;
+      p{
+        font-size: .22rem;
+        padding-bottom: .15rem;
+      }
+      span{
+        
+        display: block;
+        word-break:break-all;
+        border-radius: 5px;
+        background-color: #eeeeee;
+        font-size: .22rem;
+        padding: .12rem .15rem;
+      }
+    }
+  }
+  .copy-btn{
+    margin-top: .3rem;
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      width: .18rem;
+      height: .24rem;
+      background: url("../../images/wallet-my-6.png") no-repeat;
+      background-size: 100% 100%;
+      left: .3rem;
+      top: 50%;
+      transform: translate(0,-50%);
+    }
+    span{
+      display: block;
+      color: #592900;
+      border:1px solid #cecece;
+      border-radius: 5px;
+      text-align: center;
+      padding: .26rem 0;
+      font-size: .28rem;
+    }
+  }
+  .btn{
+    padding: .35rem .35rem 0;
+    span{
+      width: 3.22rem;
+      height: .8rem;
+      line-height: .8rem;
+      text-align: center;
+      border-radius: 5px;
+      font-size: .28rem;
+      color: #592900;
+      background-color: #fff;
+      border: 1px solid #cecece;
+      display: inline-block;
+      vertical-align: top;
+      &:nth-child(1){
+        color: #fff;
+        background-color: #ffa800;
+        border-color: #ffa800;
+        margin-right: .26rem;
+      }
+    }
+  }
+}
+.logout-wallet{
+  height: 45%;
+  background-color: #fff;
+  width: 7.5rem;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  z-index: 101;
+  left: 0;
+  bottom: 0;
+  transition: all .5s ease;
+  h2{
+    font-size:.36rem;
+    color: #592900;
+    padding: .35rem;
+  }
+  .text{
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    color: #888;
+    font-size: .3rem;
+    padding: .65rem .35rem .05rem;
+    p{
+      padding-bottom: .6rem;
+    }
+  }
+  .btn{
+    padding: .35rem .35rem 0;
+    span{
+      width: 3.22rem;
+      height: .8rem;
+      line-height: .8rem;
+      text-align: center;
+      border-radius: 5px;
+      font-size: .28rem;
+      color: #592900;
+      background-color: #fff;
+      border: 1px solid #cecece;
+      display: inline-block;
+      vertical-align: top;
+      &:nth-child(1){
+        color: #fff;
+        background-color: #ffa800;
+        border-color: #ffa800;
+        margin-right: .26rem;
+      }
+    }
+  }
+}
+.set-pass{
+  cursor: pointer;
+  width: 4.8rem;
+  height: 3.5rem;
+  background-color: #fff;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 101;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  transition: all .3s ease;
+  overflow: hidden;
+  h2{
+    padding-top: .8rem;
+    padding-bottom: .4rem;
+    color: #592900;
+    font-size: .4rem;
+    
+  }
+  .pass-text{
+    font-size: .26rem;
+  }
+  .pass-text-red{
+    color: red;
+  }
+  h3{
+    font-size: .28em;
+    color: #888;
+    padding-bottom: .3rem;
+  }
+  .btn{
+    display: flex;
+    padding: 0 .3rem;
+    height: .41rem ;
+    width: 4.2rem;
+    position: absolute;
+    z-index: 101;
+    span{
+      
+      width: 25%;
+      em{
+        vertical-align: middle;
+        display: inline-block;
+        width: .4rem;
+        height: .4rem;
+        border-radius: 50%;
+        border: 1px solid #555;
+        &.on{
+          background-color: #000;
+        }
+      }
+    }
+  }
+  input{
+    font-size:12px;
+    position: absolute;
+    opacity: 0;
+    height: .3rem;
+    width: 4.6rem;
+    z-index: 99;
+    left: .4rem;
+    &:focus{
+      text-indent: -1000px;
+      left: 8rem;
+    }
+  }
+}
+.set-pass-hidden{
+  top:-50%;
+  
+  
+}
+
+
+
+
+/*send-eth receive-eth*/
+.send-eth,.receive-eth{
+  // height: 60%;
+  height: 8.2rem;
+  background-color: #fff;
+  width: 7.5rem;
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  z-index: 101;
+  left: 0;
+  bottom: 0;
+  transition: all .5s ease;
+  
+  h2{
+    font-size: .36rem;
+    color: #592900;
+    padding: .35rem;
+    border-bottom: 1px solid #dfdfdf;
+  }
+  .first{
+    color: #888;
+    font-size: .30rem;
+    line-height: .46rem;
+    margin: .3rem .35rem;
+  }
+  .erwei-code-btn{
+    display: block;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    color: #592900;
+    font-size: .28rem;
+    padding: .26rem 0;
+    text-align: center;
+    position: relative;
+    margin: 0 .35rem ;
+    vertical-align: middle;
+    &:before{
+      content: "";
+      position: absolute;
+      width: .3rem;
+      height: .3rem;
+      background: url("../../images/wallet-my-7.png") no-repeat;
+      background-size: 100% 100%;
+      top: .28rem;
+      left: .28rem;
+      
+    }
+  }
+  .second{
+    text-align: center;
+    color: #592900;
+    font-size: .28rem;
+    position: relative;
+    height: .6rem;
+    line-height: .6rem;
+    margin: .2rem 0 0;
+    &:before{
+      content: "";
+      position: absolute;
+      height: 1px;
+      background-color: #ebebeb;
+      width: 45%;
+      left: 0;
+      top: .29rem;
+    }
+    &:after{
+      content: "";
+      position: absolute;
+      height: 1px;
+      background-color: #ebebeb;
+      width: 45%;
+      right: 0;
+      top: .29rem;
+    }
+  }
+  .input-parent{
+    position: relative;
+    margin: 0 .35rem;
+    
+    input{
+      border: 1px solid #ebebeb;
+      border-radius: 5px;
+      
+      padding: .24rem 0;
+      color: #c7c7c7;
+      font-size: .26rem;
+      outline: none;
+      box-sizing:border-box;
+      width: 100%;
+      padding-left: .25rem;
+      margin-top: .42rem;
+      &.first-input{
+        margin-top: .22rem ;
+      }
+    }
+    
+  }
+  button{
+    outline: none;
+    
+    background-color: #ffcb66;
+    border-radius: 5px;
+    padding: .27rem 0;
+    font-size: .26rem;
+    color: #fff;
+    border: none;
+    display: block;
+    
+    width: 6.8rem;
+    
+    margin: .35rem .35rem 0;
+  }
+}
+
+.receive-eth{
+  .first{
+    margin-top: .2rem;
+    padding-left: 1rem;
+  }
+  .code-box{
+    margin: .2rem auto;
+    width: 3rem;
+    height: 3rem;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    canvas{
+      display: none;
+    }
+  }
+  .third{
+    margin: 0 .35rem;
+    padding: .25rem 0;
+    background-color: #bdbbb6;
+    border-radius: 5px;
+    
+    font-size: .26rem;
+    color: #000;
+    text-align: center;
+  }
+  .share{
+    margin: .2rem .35rem;
+    display: flex;
+    span{
+      width: 3.225rem;
+      
+      background-color: #ffcb66;
+      border-radius: 5px;
+      padding: .25rem 0;
+      font-size: .26rem;
+      color: #fff;
+      border: none;
+      text-align: center;
+      &:nth-child(1){
+        margin-right: .35rem;
+      }
+    }
+  }
+}
+
+
+.hidden{
+  display: none;
+}
+.logout-wallet-hidden,.back-privateKey-hidden,.logout-last-hidden,.send-eth-hidden,.receive-eth-hidden{
+  bottom: -100%;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.inner-box{
+  background: url("../../images/pwd_keyboard.png") center bottom / 100% 100%!important;
+}

@@ -1,0 +1,15 @@
+/* pages/login/agree.wxss */
+view{
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 28rpx;
+  line-height: 1.5;
+}
+
+.title{
+  text-align: center;
+}
+.content{
+  margin: 40rpx 30rpx 0;
+  padding-bottom: 40rpx;
+}

@@ -1,0 +1,41 @@
+
+
+
+
+<view class='pay-content'>
+  
+  <view class='pay-header'>
+   
+    <view class='mon-number'>{{money}}</view>
+    <view class='mon-txt'>车费余额（元）</view>
+    <view class='tips {{freeEnd == true ? "tips-hide" : ""}}' >{{freeDepositTxt}}</view>
+  </view>
+  <view class='pay-tit'>请选择充值金额</view>
+  <view class='mon-list' >
+   
+     
+    <view class="{{currentItemId == '1'?'on':''}}" catchtap='editClass' data-id="1">
+      <text class='reco-tips'></text>
+      <text class='pay-amout' data-num="100">充100元</text>
+    </view>
+     
+    <view class="{{currentItemId == '2'?'on':''}}"  catchtap='editClass' data-id="2">
+      <text class='reco-tips'></text>
+      <text class='pay-amout'  data-num="50" >充50元</text>
+    </view>
+    <view class="{{currentItemId == '3'?'on':''}}"  bindtap='editClass' data-id="3">
+      <text class='reco-tips'></text>
+      <text class='pay-amout'  data-num="10">充10元</text>
+    </view>
+    <view class="{{currentItemId == '4'?'on':''}}"  bindtap='editClass' data-id="4">
+      <text class='reco-tips'></text>
+      <input placeholder='其它金额' class='other-amout' id="test" bindinput="otherAmout"></input>
+    </view>
+  </view>
+  <view class='pay-btn'>
+    <button bindtap="payFunc" disabled='{{isDis}}'>充值</button>
+  </view>
+  <view class='pay-last' bindtap='paymentDeposit' data-val='{{depositTxt}}'>
+    <text>押金{{depositNumber}}元 <text class='last-txt' >{{depositTxt}}</text></text>
+  </view>
+</view>

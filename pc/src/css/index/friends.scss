@@ -1,0 +1,104 @@
+.friends{
+    background-color: #F8DD6A;
+    padding: 100px 0;
+}
+.fri-wrap .tit{
+    font-size: 18px;
+    color: #010101;
+    text-align: center;
+}
+.invite{
+    text-align: center;
+}
+.invite-wrap{
+    display: inline-block;
+    margin: 55px auto 0;
+    background-color: #fff;
+    padding: 66px 40px 100px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #989898;
+}
+.invite .row{
+    position: relative;
+    margin-bottom: 32px;
+}
+.invite .row label{
+    min-width: 200px;
+  text-align: right;
+  display: inline-block;
+}
+.invite input{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    width: 590px;
+    font-size: 18px;
+    padding: 18px 16px;
+    border: 1px solid #DEDEDE;
+    border-radius: 6px;
+    font-family: inherit;
+}
+.invite input:focus{
+    border-color: #F8DD6A;
+    box-shadow: 0 0 1px #F8DD6A;
+}
+.invite .url{
+    padding-right: 120px;
+}
+.invite .btn-copy{
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    font-size: 18px;
+    color: #000;
+    line-height: 1;
+    padding: 12px 30px;
+    border-radius: 6px;
+    background-color: #ffc600;
+    cursor: pointer;
+}
+.invite .share{ 
+    margin-top: 80px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.social-share{
+    display: inline-block;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    padding: 4px 25px;
+}
+.social-share .label{
+    font-size: 16px;
+    line-height: 32px;
+    color: #000;
+}
+.social-share .share-icon{
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    margin-left: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: top;
+}
+.social-share .share-icon:hover{
+    background-color: transparent;
+}
+.social-share .icon-qq{
+    background-image: url(../../images/img0327/icon-qq.png);
+}
+.social-share .icon-wechat{
+    background-image: url(../../images/img0327/icon-wx.png);
+}
+.social-share .icon-weibo{
+    background-image: url(../../images/img0327/icon-weibo.png);
+}
+
+
+

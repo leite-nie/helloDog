@@ -1,0 +1,22 @@
+<!--pages/attestation/step2.wxml-->
+<view>
+  <view class='attes-tit'>
+    <image src='../images/step2.png'></image>
+  </view>
+  <view class='input'>
+    <label>姓名</label>
+    <input  placeholder-class="phcolor" bindinput='inputBlur' value=''  placeholder="请输入真实姓名"></input>
+    
+  </view>
+  <view class='input '>
+    <label>身份证号码</label>
+    <input placeholder-class="phcolor"  bindinput='inputBlur2' value='' placeholder="请输入身份证号码" ></input>
+    
+  </view>
+  <view class='attes-last'>
+    <button bindtap='attesFunc'>验证</button>
+  </view>
+</view>
+
+
+

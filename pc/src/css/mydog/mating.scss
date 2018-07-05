@@ -1,0 +1,191 @@
+a:active,
+a:focus{
+    text-decoration: none;
+}
+.empty{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 24px;
+}
+.vertical{
+    display: flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+}
+.banner{
+    height: 374px;
+    background: url(../../images/img0327/petBreed-bd.png) no-repeat center;
+}
+.mating-lay{
+    background-color: #efefef;
+    margin-bottom: -87px;
+}
+.mating-lay .wrap{
+    position: relative;
+    top: -256px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    // padding: 89px 52px 100px;
+    padding: 60px 52px 100px;
+    border-radius: 24px;
+    background-color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.mating-lay .tit{
+    font-size: 38px;
+    color: #000;
+    line-height: 1;
+    text-align: center;
+}
+.mating-lay .parents{
+    // margin-top: 75px;
+    margin-top: 60px;
+    background: url(../../images/img0327/icon-heart.png) no-repeat center 125px;
+    background-size: 120px auto;
+}
+.mating-lay .parents .cell{
+    width: 50%;
+    float: left;
+}
+.mating-lay .parents .pic-left{
+    background-image: url(../../images/img0327/icon-male.png);
+    background-repeat: no-repeat;
+    background-position: 24px 26px;
+    margin-left: 120px;
+}
+.mating-lay .parents .pic-right{
+    float: right;
+    background-image: url(../../images/img0327/icon-female.png);
+    background-repeat: no-repeat;
+    // background-position: 354px 26px;
+    background-position: 240px 26px;
+    margin-right: 120px;
+}
+.mating-lay .parents .pic{
+    // width: 415px;
+    // height: 442px;
+    width: 305px;
+    height: 340px;
+    border-radius: 12px;
+}
+.mating-lay .parents img{
+    // width: 196px;
+    // height: 255px;
+    width: 180px;
+    height: 214px;
+}
+.mating-lay .info{
+    width: 305px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.3;
+    margin-top: 25px;
+    padding-left: 120px;
+    clear: both;
+}
+.mating-lay .right-cell .info{
+    padding-left: 128px;
+}
+.mating-lay .info i{
+    color: #989898;
+    font-style: normal;
+}
+.mating-lay .info i.isGen0{
+  color: red;
+}
+.mating-lay .info i:before{
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin: 0 12px;
+    vertical-align: 4px;
+    background-color: #989898;
+}
+.mating-lay .hint{
+    text-align: center;
+    font-size: 22px;
+    color: #E42D27;
+    line-height: 1;
+    // padding: 24px 0;
+    padding: 18px 0;
+    border-radius: 12px;
+    background-color: #FDE8EC;
+    // margin-top: 63px;
+    margin-top: 40px;
+}
+.mating-lay .pets h6{
+    font-size: 34px;
+    // margin-top: 107px;
+    margin-top: 70px;
+}
+.mating-lay .pets .sub{
+    font-size: 16px;
+    color: #989898;
+    line-height: 1;
+    // margin-top: 40px;
+    margin-top: 30px;
+}
+.mating-lay .pets .list{
+    margin-top: 44px;
+}
+.mating-lay .pets li{
+    float: left;
+    width: 243px;
+    margin-right: 39px;
+    margin-bottom: 20px;
+}
+.mating-lay .pets li:nth-child(4n){
+    margin-right: 0;
+}
+.mating-lay .pets li:hover{
+    cursor: pointer;
+}
+.mating-lay .pets .disabled{
+    opacity: .6;
+}
+.mating-lay .pets .disabled:hover{
+    cursor: not-allowed;
+}
+.mating-lay .pets .pic{
+    width: 243px;
+    height: 291px;
+    border-radius: 12px;
+}
+.mating-lay .pets img{
+    width: 135px;
+    height: 157px;
+}
+.mating-lay .pets .info{
+    width: auto;
+    height: 40px;
+    padding-left: 0;
+    margin-top: 12px;
+    text-align: left;
+}
+.mating-lay .pets .btn-wrap{
+    text-align: center;
+    margin-top: 65px;
+}
+.mating-lay .pets .btn{
+    display: inline-block;
+    font-size: 24px;
+    color: #000;
+    line-height: 1;
+    background-color: #FEDB00;
+    border-radius: 100px;
+    padding: 25px 55px;
+    box-shadow: 0 6px 0 #A99309;
+    cursor: pointer;
+}

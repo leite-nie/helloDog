@@ -1,0 +1,25 @@
+<!--pages/attestation/step1.wxml-->
+<view>
+  <view class='attes-tit'>
+    <image src='../images/step1.png'></image>
+  </view>
+  <view class='attes-explain'>
+    <view class='explain-list'>
+      <view class='bold'>免押金体验</view>
+      <view class='red2'>{{freeDepositTxt}}</view>
+    </view>
+    <view class='explain-list explain-list2'>
+      <text class='bold'>押金</text> <text class='red'>¥199</text>
+    </view>
+  </view>
+  <view class='attes-cont'>
+    <view class='attes-cont-tit'>新用户注册起3天免押金用车，在免押金体验期间，您需要严格
+遵守以下条款：</view>
+    <view class='attes-list'><text>·</text>12周岁以下不能使用共享单车</view>
+    <view class='attes-list'><text>·</text>文明用车，杜绝破坏单车，不关锁，占为私有</view>
+    <view class='attes-list'><text>·</text>还车时将单车停放在不妨碍公共交通的区域</view>
+  </view>
+  <view class='attes-last'>
+    <button bindtap="toStep2">同意并遵守文明用车条款，去认证</button>
+  </view>
+</view>

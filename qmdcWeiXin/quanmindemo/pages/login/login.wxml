@@ -1,0 +1,22 @@
+<view class="login">
+  <view class='input input-second'>
+    <label>+86</label>
+    <input  placeholder-class="phcolor" bindinput='inputBlur'  placeholder="请输入手机号码" maxlength='11'></input>
+    <button bindtap='sendCode' disabled="{{phoneDis}}">
+      <text hidden="{ {phoneCode == '获取验证码'}}">重发</text>{{phoneCode}}<text hidden="{{phoneCode == '获取验证码'}}">S</text>
+    </button>
+  </view>
+  <view class='input '>
+    <label>验证码</label>
+    <input placeholder-class="phcolor"  bindinput='inputBlur2' placeholder="请输入短信验证码" maxlength='4'></input>
+    
+  </view>
+  <view class=' input-last'>
+    <button  bindtap='toLogin'  disabled="{{codeDis}}">登陆</button> 
+  </view>
+  <view class='agreement-box'>
+      <checkbox checked='true'></checkbox>
+      阅读并同意<text bindtap="toAgree">《用车条款》</text>
+    </view>
+    
+</view>

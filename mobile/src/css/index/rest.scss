@@ -1,0 +1,88 @@
+
+
+.layout-ban {
+  position: relative;
+  height: 5.2rem;
+  background-image: url(../../images/detail-pet-bd.png);
+  background-repeat: no-repeat;
+  background-position: center 3.76rem;
+  background-size: 2rem auto;
+  background-size: 2rem auto;
+  overflow: hidden;
+}
+.layout-ban img{
+  display: block;
+  width: 3.6rem;
+  height: 4.28rem;
+  margin: 0 auto 0;
+}
+.layout-ban img.zero{
+  width: 5rem;
+  height: 5.33rem;
+  margin-top: -0.42rem;
+}
+.layout-ban a{
+  position: absolute;
+  top: 0.36rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, .18);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  color: #fff;
+}
+.layout-ban .left-icon{
+  left: 0.34rem;
+  background-image: url(../../images/icon-leaf.png);
+  background-size: 0.24rem auto;
+}
+.layout-ban .right-icon{
+  right: 0.34rem;
+  background-image: url(../../images/icon-share.png);
+  background-size: 0.24rem auto;
+}
+.layout-ban .icon-tag3{
+  width: auto;
+  font-family: inherit;
+  line-height: 0.6rem;
+  padding: 0 0.3rem;
+  background-position: 0.2rem center;
+  background-image: url(../../images/icon-tag3.png);
+}
+.layout-ban .icon-menu{
+  padding-left: 0.5rem;
+  background: url(../../images/icon-menu.png) no-repeat 0.26rem center;
+  background-size: 0.14rem auto;
+}
+.s-wrap{
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+}
+.hint-box{
+  margin-top: 0.56rem;
+  font-size: 0.28rem;
+  color: #914400;
+}
+.hint-box .hint-tit{
+  font-size: 0.34rem;
+  color: #592900;
+}
+.hint-box .hint-txt{
+  line-height: 1.77;
+  margin-top: 0.15rem;
+}
+.hint-box .hint-list{
+  margin-top: 0.42rem;
+}
+.hint-box li{
+  margin-bottom: 0.18rem;
+}
+.hint-box .active{
+  color: #ffa800;
+}
+.hint-box .time{
+  font-style: normal;
+  float: right;
+}

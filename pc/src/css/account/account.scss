@@ -1,0 +1,140 @@
+body{
+    background-color: #f8dd6a;
+}
+.info-main{
+
+    min-height:766px;
+    margin-bottom: 100px;
+}
+.info-box{
+    width: 1200px;
+    margin: 0 auto;
+    .title{
+        font-size: 38px;
+        padding-top: 50px;
+        text-align: center;
+        color: #000000;
+    }
+}
+.info-list{
+    width: 690px;
+    padding: 30px 75px;
+    min-height: 506px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 50px 0 0 220px;
+    .list{
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+        .add-div{
+          display: flex;
+          input{
+            flex: auto;
+            width: auto;
+          }
+        }
+        .tit-name{
+            color: #000;
+            line-height: 50px;
+
+            text-align: left;
+
+            span{
+                color: red;
+                margin-left: 5px;
+                line-height: 50px;
+            }
+        }
+        input{
+            width: 680px;
+            height:40px;
+            outline: none;
+            background-color: #ffffff;
+            border-radius: 5px;
+            border: 1px solid #d4d4d4;
+            line-height: 40px;
+            padding-left: 10px;
+            color: #888888;
+            font-size:18px;
+            &.address{
+                width: 500px;
+            }
+        }
+        .copy{
+            background-color: #fedb00;
+            height: 42px;
+            line-height: 42px;
+            padding:  0  30px;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #000;
+            text-align: center;
+            display: inline-block;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+    .info-txt{
+        background-color: #fde8ec;
+        font-size: 20px;
+        color: #e42d27;
+        line-height: 30px;
+        padding: 20px 30px;
+        border-radius: 5px;
+        margin-top: 40px;
+       
+    }
+    .info-agreement{
+      margin-top: 25px;
+      font-size: 16px;
+      line-height: 24px;
+      input{
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+      span{
+        a{
+          color: #888;
+        }
+      }
+    }
+    .info-help{
+        font-size: 18px;
+        color: #ffffff;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .info-btn{
+        margin-top: 60px;
+        text-align: center;
+        button{
+            background-color: #ffc600;
+            font-size: 18px;
+            color: #000;
+            line-height: 22px;
+            padding: 16px 60px;
+            border-radius: 32px;
+            box-shadow: 0px 6px 0px #ab880e;
+
+            border: none;
+            cursor: pointer;
+            outline: none;
+            &:hover{
+
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+

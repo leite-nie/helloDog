@@ -1,0 +1,318 @@
+html,body,#app,.cup-wrap{
+/*  height: 100%;*/
+}
+body{
+  background-color: #d43850;
+}
+.cup-wrap{
+  .tab {
+    padding: .3rem .3rem 0;
+    border-bottom: 0.04rem solid #914400;
+    background-color: #ffa800;
+    
+  }
+  .empty{
+    color: #fff;
+  }
+  .tab ul {
+    overflow: hidden;
+  }
+  
+  .tab li {
+    width: 33.3%;
+    float: left;
+    // height: 0.52rem;
+    line-height: 0.56rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #914400;
+    cursor: pointer;
+  }
+  
+  .tab li:active,
+  .tab .active {
+    
+    background-color: #914400;
+    border-top-left-radius: 0.12rem;
+    border-top-right-radius: 0.12rem;
+    span{
+      color: #fff;
+    }
+  }
+  .tab-box{
+    background:  url("../../images/cup-1.jpg") no-repeat right bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 11rem;
+  }
+  .group-box{
+    padding: .3rem .3rem 0;
+    li{
+      background: rgba(255,255,255,.85);
+      border-radius: .1rem;
+      padding: .3rem .3rem .4rem;
+      margin-bottom: .3rem;
+      .top{
+        color: #ffa800;
+        font-size: .28rem;
+      }
+      .middle{
+        display: flex;
+        margin-top: -.2rem;
+        .l,.r{
+          flex: auto;
+          font-size: .3rem;
+          img{
+            width: 100%;
+          }
+          p{
+            margin-top: -.2rem;
+            text-align: center;
+            em{
+              font-style: normal;
+              color: red;
+            }
+          }
+        }
+        .c{
+          width: 2.56rem;
+          height: 1.02rem;
+          background: url("../../images/cup-2.png") no-repeat;
+          background-size: 100% 100%;
+          margin-top: .5rem;
+        }
+      }
+      .bottom{
+        margin-top: .5rem;
+        text-align: center;
+        span{
+          border: 1px solid #c3c3c3;
+          font-size: .28rem;
+          padding: .1rem .3rem;
+          border-radius: .3rem;
+          margin-right: .2rem;
+          cursor: pointer;
+          &.isclose{
+            background-color: #999;
+            border: 1px solid #999;
+            color: #fff;
+          }
+        }
+        
+      }
+    }
+  }
+  .group-box-hidden{
+    display: none;
+  }
+  .champion-box{
+    ul{
+      margin: 0 .3rem;
+    }
+    li{
+      margin-top: .3rem;
+      background: rgba(255,255,255,.85);
+      float: left;
+      padding: .3rem;
+      border-radius: .2rem;
+      &:nth-child(odd){
+        margin-right: .25rem;
+      }
+      width: 2.72rem;
+      .top{
+        display: flex;
+        p{
+          text-align: right;
+          flex: 1;
+          font-size: .26rem;
+          /*line-height: .76rem;*/
+          padding-top: .18rem;
+        }
+        img{
+          width: 1.34rem;
+          height: .9rem;
+          margin-top: -.1rem;
+        }
+      }
+      .bottom{
+        display: flex;
+        span{
+          &:nth-child(1){
+            flex: auto;
+            padding-top: .12rem;
+            font-size: .26rem;
+            color: #ffa800;
+          }
+          &:nth-child(2){
+            background-color: #ffa800;
+            color: #914400;
+            font-size: .26rem;
+            text-align: right;
+            padding: .12rem .25rem;
+            border-radius: .3rem;
+          }
+        }
+      }
+    }
+  }
+  .champion-box-hidden{
+    display: none;
+  }
+  .cuplist-box{
+    
+    
+    .tab1 {
+      padding: .4rem .6rem 0;
+      position: relative;
+      z-index: 1000;
+     
+      
+    }
+  
+    .tab1 ul {
+      overflow: hidden;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid #ffa800;
+      border-radius: 5px;
+      display: flex;
+    }
+  
+    .tab1 li {
+      width: 50%;
+     
+      // height: 0.52rem;
+      /*line-height: 0.56rem;*/
+      padding: .13rem 0;
+      text-align: center;
+      font-size: 0.3rem;
+      color: #fff;
+      cursor: pointer;
+    }
+  
+    .tab1 li:active,
+    .tab1 .active {
+    
+      background-color: #ffa800;
+      
+      span{
+        color: #914400;
+      }
+    }
+    .clearfix{
+      padding-top: .3rem;
+      font-size: .26rem;
+      margin:0 .3rem;
+     
+      li{
+        background-color: #fff;
+        display: flex;
+        text-align: center;
+        
+        .a,.d,.e{
+          width: 13.3%;
+        }
+        .b,.c,.f{
+          width: 20%;
+        }
+        span{
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          border: 1px solid #ffa800;
+          padding: .1rem 0;
+          border-bottom: 0;
+        }
+        .a,.b,.c,.d,.e{
+          border-right: 0;
+        }
+        &:nth-last-child(1){
+          border-bottom:1px solid #ffa800;
+        }
+        &.groupli{
+          .a,.c,.d,.e,.f{
+            padding-top: .2rem;
+          }
+        }
+        &.first{
+          background-color: #ffc657;
+          color: #ca2d21;
+          .a,.b,.d,.e{
+            padding-top: .2rem;
+          }
+        }
+      }
+    }
+  }
+  .cuplist-box-hidden{
+    display: none;
+  }
+}
+.bet-box{
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .bet{
+    width: 6.56rem;
+    height: 6.14rem;
+    background: url("../../images/cup-3.png") no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    .top{
+      position: absolute;
+      top: 1.5rem;
+      right: .6rem;
+      color: #fff;
+      font-size: .3rem;
+      p{
+        &:nth-child(1){
+          span{
+            font-size: .6rem;
+          }
+        }
+      }
+    }
+    .bottom{
+      position: absolute;
+      top:3.2rem;
+      left: 1.2rem;
+      color: #914400;
+      font-size: .3rem;
+      .list{
+        margin-top: .35rem;
+        label{
+          margin-right: .1rem;
+        }
+        input{
+          border: none;
+          outline: none;
+          background-color: #e9e9e9;
+          padding: .1rem;
+          width: 2.2rem;
+        }
+        &:nth-child(3){
+          text-align: center;
+          margin-top: .5rem;
+          span{
+            padding: .15rem 1rem;
+            background-color: #ffa800;
+            color: #914400;
+            font-size: .30rem;
+            border-radius: .4rem;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+.bet-box-hidden{
+  display: none;
+}

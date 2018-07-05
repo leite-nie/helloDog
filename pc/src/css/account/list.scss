@@ -1,0 +1,84 @@
+body{
+    background-color: #f8dd6a;
+}
+.transaction{
+    width: 1000px;
+    margin: 100px auto 0;
+    min-height: 600px;
+}
+.t-left{
+    float: left;
+    width: 15%;
+    a{
+        float: right;
+        margin-bottom: 15px;
+        border-radius: 10px;
+
+        line-height: 22px;
+        padding: 10px 15px;
+        color: #fff;
+        text-align: center;
+        background-color: #eba612;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+.t-right{
+    float: right;
+    width: 100%;
+  margin-bottom: 30px;
+    .txt{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    ul{
+        li{
+            width: 100%;
+            float: left;
+            min-height: 90px;
+            background-color: #fcefba;
+            margin-top: 12px;
+            span{
+                float: left;
+                width: 57px;
+                height: 57px;
+                margin: 16px 28px 0;
+                background: url("../../images/img0327/email-no.png") no-repeat;
+                &.isPast{
+                    background: url("../../images/img0327/email-yes.png") no-repeat;
+                }
+            }
+            div{
+                float: left;
+                max-width: 750px;
+                
+                h2{
+                    color: #a38e33;
+                    font-size: 14px;
+                    padding: 20px 0 5px;
+                }
+                p{
+                    color: #524407;
+                    font-size: 16px;
+                  em{
+                    color: red;
+                  }
+                }
+            }
+            a{
+                float: right;
+                padding: 10px 20px;
+                border-radius: 5px;
+                background-color: #ffde00;
+                color: #6a5e0b;
+                font-size: 12px;
+                text-decoration: none;
+                margin: 30px 36px 0 0;
+            }
+        }
+    }
+}
+.paginationDiv .num.current{
+  background-color: #fff;
+  color: #000;
+}

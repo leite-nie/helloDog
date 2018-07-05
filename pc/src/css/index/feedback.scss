@@ -1,0 +1,64 @@
+
+.feedback-wrap{
+  padding-top: 135px;
+  padding-bottom: 135px;
+  text-align: center;
+}
+.feedback-sect{
+  display: inline-block;
+}
+.feedback-sect .row{
+  text-align: left;
+  margin-top: 20px;
+  line-height: 2.2;
+  font-size: 16px;
+}
+.feedback-sect label{
+  float: left;
+  width: 150px;
+  text-align: right;
+}
+.feedback-sect .cnt{
+  overflow: hidden;
+}
+.feedback-sect .cnt input,
+.feedback-sect .cnt textarea{
+  width: 100%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  font-size: inherit;
+  // line-height: inherit;
+  border: 1px solid #FFA800;
+  outline: 0;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.feedback-sect .cnt input:focus,
+.feedback-sect .cnt textarea:focus{
+  box-shadow: 0 0 1px 0 #FFA800;
+}
+.feedback-sect .cnt input{
+  height: 42px;
+}
+.feedback-sect .cnt textarea{
+  height: 90px;
+  line-height: 1.5;
+  padding-top: 5px;
+}
+.feedback-sect .row-btn{
+  margin-top: 50px;
+  text-align: center;
+}
+.feedback-sect .row-btn .btn-def{
+  display: inline-block;
+  font-size: 22px;
+  color: #000;
+  background-color: #FEDB00;
+  border-radius: 100px;
+  width: 306px;
+  line-height: 52px;
+  box-shadow: 0 6px 0 #A99309;
+  margin: 0 32px;
+  cursor: pointer;
+}

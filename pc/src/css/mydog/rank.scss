@@ -1,0 +1,82 @@
+
+body{
+    background-color: #f8dd6a;
+}
+.rank-wrap{
+    width: 1200px;
+    margin: 100px auto;
+}
+.rank-list{
+    position: relative;
+    float: left;
+    width: 285px;
+    border: 1px solid #eb7409;
+    text-align: center;
+    font-size: 14px;
+    color: #482f0c;
+    margin-right: 16px;
+    background-color: #fef8ea;
+}
+.rank-list:last-child{
+    margin-right: 0;
+}
+.rank-list table{
+    width: 100%;
+    margin-top: 18px;
+}
+.rank-list .title{
+    position: absolute;
+    width: 272px;
+    height: 38px;
+    top: -20px;
+    left: 50%;
+    margin-left: -136px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1630dd;
+    background: url(../../images/img0327/rank-1.png) no-repeat center;
+}
+.rank-list table tr{
+    line-height: 54px;
+    border-bottom: 1px solid #f1e6cc;
+}
+.rank-list table td:first-child{
+    width: 50px;
+}
+.rank-list table td:nth-child(2){
+    width: 40%;
+}
+.rank-list tbody tr:nth-child(2n) {
+    background-color: #fff5dc;
+}
+.rank-list span{
+    padding: 4px 15px;
+    border-radius: 20px;
+    background-color: #f8db6c;
+    font-size: 16px;
+    color: #482f0c;
+}
+.rank-list .first,
+.rank-list .second,
+.rank-list .thirdly{
+  color: #f26406;
+}
+.rank-list .first td:first-child{
+  background: url(../../images/img0327/rank-6.png) no-repeat center;
+  background-size: 24px auto;
+}
+.rank-list .second td:first-child{
+  background: url(../../images/img0327/rank-7.png) no-repeat center;
+  background-size: 24px auto;
+}
+.rank-list .thirdly td:first-child{
+  background: url(../../images/img0327/rank-8.png) no-repeat center;
+  background-size: 24px auto;
+}
+
+.empty{
+    padding: 50px 0;
+}

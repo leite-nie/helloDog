@@ -1,0 +1,153 @@
+
+.s-wrap{
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+}
+.myself-info{
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+  border-top: 1.18rem solid #FFA800;
+}
+.myself-info .cnt{
+  position: relative;
+  top: -0.6rem;
+  background-color: #fff;
+  border-radius: 0.12rem;
+  box-shadow:0 4px 8px 0 #ffe3ae;
+  padding-bottom: 0.25rem;
+}
+.myself-info .pic{
+  position: absolute;
+  top: -0.5rem;
+  left: 50%;
+  margin-left: -0.79rem;
+}
+.myself-info .pic img{
+  width: 1.58rem;
+  height: 1.58rem;
+  border-radius: 1rem;
+}
+.myself-info .addr{
+  font-size: 0.28rem;
+  text-align: center;
+  padding-top: 1.34rem;
+}
+.myself-info .addr .stg{
+  display: block;
+  line-height: 1.8;
+  color: #888;
+  font-size: .25rem;
+}
+.myself-info .total{
+  display: flex;
+  display: -webkit-flex;
+  margin-top: 0.38rem;
+  border-top: 1px solid #eee;
+}
+.myself-info .total .cell{
+  flex: 1;
+  -webkit-flex: 1;
+  padding-top: 0.23rem;
+}
+.myself-info .total span{
+  display: block;
+  text-align: center;
+}
+.myself-info .total .num{
+  font-size: 0.5rem;
+  color: #FF9500;
+}
+.myself-info .total .txt{
+  font-size: 0.32rem;
+  margin-top: 0.18rem;
+}
+.advertise{
+  position: relative;
+  
+  display: block;
+  height: 1.2rem;
+  background: url(../../images/myself-intive.jpg) no-repeat center;
+  background-size: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+.advertise .tit{
+  font-size: 0.36rem;
+  color:#592900;
+  padding-top: 0.25rem;
+}
+.advertise .sub{
+  font-size:0.24rem;
+  color: #914400;
+  margin-top: 0.1rem;
+}
+.advertise .icon-arrows{
+  position: absolute;
+  top: 50%;
+  right: 0.68rem;
+  margin-top: -0.12rem;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: url(../../images/icon-arrows.png) no-repeat center;
+  background-size: 100% auto;
+}
+.myself-nav{
+  margin-top: 0.12rem;
+  margin-left: 0.34rem;
+  margin-right: 0.34rem;
+}
+.myself-nav li{
+  border-bottom: 1px solid #dfdfdf;
+}
+.myself-nav a{
+  display: block;
+  font-size: 0.28rem;
+  color: #593900;
+  line-height: 0.32rem;
+  padding: 0.26rem 0;
+  text-decoration: none;
+}
+.myself-nav a span:before{
+  content: '';
+  position: relative;
+  top: -0.04rem;
+  display: inline-block;
+  width: 0.34rem;
+  height: 0.36rem;
+  margin-right: 0.16rem;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-wallet3:before{
+  background-image: url(../../images/icon-wallet3.png);
+  background-size: 0.33rem auto;
+}
+.icon-earnings3:before{
+  background-image: url(../../images/icon-earnings3.png);
+  background-size: 0.32rem auto;
+}
+.icon-notice:before{
+  background-image: url(../../images/icon-notice.png);
+  background-size: 0.31rem auto;
+}
+.icon-method:before{
+  background-image: url(../../images/icon-method.png);
+  background-size: 0.3rem auto;
+}
+.icon-question:before{
+  background-image: url(../../images/icon-question.png);
+  background-size: 0.3rem auto;
+}
+.icon-setting:before{
+  background-image: url(../../images/icon-setting.png);
+  background-size: 0.31rem auto;
+}
+.icon-reply:before{
+  background-image: url(../../images/icon-reply.png);
+  background-size: 0.31rem auto;
+}
+.icon-translist:before{
+  background-image: url(../../images/icon-reply.png);
+  background-size: 0.31rem auto;
+}

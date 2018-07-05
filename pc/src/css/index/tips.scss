@@ -1,0 +1,20 @@
+body{
+    background-color: #fff;
+
+}
+.tips-list-box{
+  text-align: center;
+  padding-bottom: 50px;
+  p{
+    &:nth-child(1){
+      width: 1000px;
+      margin: 0 auto;
+      text-align: left;
+      padding-top: 50px;
+      a{
+        color: red;
+        text-decoration: underline;
+      }
+    }
+  }
+}

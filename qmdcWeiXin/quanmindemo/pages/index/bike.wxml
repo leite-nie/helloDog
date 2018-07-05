@@ -1,0 +1,73 @@
+<!--pages/index/bike.wxml-->
+<!--view style='display:'>
+    <text>{{latitude}}</text>
+    <view>{{cityCode}}</view>
+    <text>{{longitude}}</text>
+  </view-->
+<view class='bike-content'>
+  <view class='tips {{freeEnd == true ? "tips-hide" : ""}}'>
+    <text>{{freeDepositTxt}}</text>
+  </view>
+  <view class='bike-type'>
+    
+    <view class='bike-img'>
+      <image src='../images/bike-01.png'></image>
+      <text>摩拜单车</text>
+      <text class='maintain'>维护中</text>
+    </view>
+    <view class='bike-img'>
+      <image src='../images/bike-02-gray.png'></image>
+      <text>ofo单车</text>
+      <text class='maintain  maintain-on'>维护中</text>
+    </view>
+    <view class='bike-img'>
+      <image src='../images/bike-04.png'></image>
+      <text>赳赳</text>
+    </view>
+    <view class='bike-img'>
+      <image src='../images/bike-03-gray.png'></image>
+      <text>小蓝单车</text>
+       <text class='maintain  maintain-on'>维护中</text>
+    </view>
+    
+    <view class='bike-img'>
+      <image src='../images/bike-05-gray.png'></image>
+      <text>哈罗</text>
+       <text class='maintain  maintain-on'>维护中</text>
+    </view>
+    <view class='bike-img'>
+      <image src='../images/bike-06-gray.png'></image>
+      <text>小鸣</text>
+       <text class='maintain  maintain-on'>维护中</text>
+    </view>
+    <!--view class='bike-img'>
+      <image src='../images/bike-07-gray.png'></image>
+      <text>酷骑</text>
+       <text class='maintain  maintain-on'>维护中</text>
+    </view>
+    <view class='bike-img'>
+      <image src='../images/bike-08-gray.png'></image>
+      <text>骑呗</text>
+       <text class='maintain  maintain-on'>维护中</text>
+    </view>
+    <view class='bike-img'>
+      <image src='../images/bike-09-gray.png'></image>
+      <text>1单车</text>
+       <text class='maintain  maintain-on'>维护中</text>
+    </view-->
+  </view>
+  <view class='btn-box' bindtap="canCode">
+    
+    <image src='../images/lockBg.png'></image>
+  </view>
+  <view class='to-pay' bindtap="toPay">
+    
+    <image src='../images/payBtn.png'></image>
+  </view>
+  <view class='loading {{hideClass}} ' >
+    <view class='load-bg'></view>
+    <view class='load-pro'>
+      <progress  percent="{{progressVal}}" show-info stroke-width='20'  backgroundColor="#eee" activeColor="#00ffd2" />
+    </view>
+  </view>
+</view>

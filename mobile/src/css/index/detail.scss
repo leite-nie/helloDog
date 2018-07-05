@@ -1,0 +1,311 @@
+
+
+.icon-leaf2:before{
+  background: url(../../images/icon-leaf2.png) no-repeat center;
+  background-size: 0.24rem;
+}
+.icon-tag:before{
+  background: url(../../images/icon-tag.png) no-repeat center;
+  background-size: 0.24rem;
+}
+.icon-present:before{
+  background: url(../../images/icon-present.png) no-repeat center;
+  background-size: 0.24rem;
+}
+.icon-reward:before{
+  background: url(../../images/icon-reward.png) no-repeat center;
+  background-size: 0.24rem;
+}
+.detail-wrap{
+  font-size: 0.24rem;
+  padding-bottom: 0.32rem;
+}
+.layout-ban {
+  position: relative;
+  height: 5.2rem;
+  background-position: center 3.76rem;
+  background-repeat: no-repeat;
+  background-image: url(../../images/detail-pet-bd.png);
+  background-size: 2rem auto;
+  overflow: hidden;
+}
+.layout-ban img{
+  display: block;
+  width: 3.6rem;
+  height: 4.28rem;
+  margin: 0 auto 0;
+}
+.zero .layout-ban .dogImg{
+  width: 5rem;
+  height: 5.33rem;
+  margin-top: -0.42rem;
+}
+.layout-ban a{
+  position: absolute;
+  top: 0.36rem;
+  left: 0.34rem;
+  line-height: 0.34rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, .18);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-decoration: none;
+}
+.layout-ban a span{
+  display: block;
+}
+.layout-ban a span[class*=icon]{
+  padding: 0.1rem 0.24rem;
+}
+.layout-ban a span[class*=icon]:before{
+  content: '';
+  display: inline-block;
+  width: 0.34rem;
+  height: 0.34rem;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.3rem auto;
+  vertical-align: middle;
+}
+.layout-ban .left-icon .icon-tag:before{
+  background-image: url(../../images/icon-tag.png);
+}
+.layout-ban .left-icon .icon-leaf2:before{
+  background-image: url(../../images/icon-tag.png);
+}
+.layout-ban .left-icon .icon-rest:before{
+  background-image: url(../../images/icon-rest.png);
+}
+.layout-ban .left-icon .icon-preg:before{
+  background-image: url(../../images/icon-preg.png);
+}
+.layout-ban .right-icon{
+  right: 0.34rem;
+  background-image: url(../../images/icon-share.png);
+  background-size: 0.24rem auto;
+}
+.s-wrap{
+  padding-left: 0.34rem;
+  padding-right: 0.34rem;
+}
+.detail-wrap .tit{
+  font-size: 0.36rem;
+  color: #592900;
+}
+.detail-wrap .tit span{
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  vertical-align: top;
+  margin-left: 15px;
+}
+.detail-wrap .tit .edit{
+  background: url(../../images/font-edit.png) no-repeat center;
+  background-size: 0.45rem auto;
+}
+.detail-wrap .tit .submit{
+  background: url(../../images/font-right.png) no-repeat center;
+  background-size: 0.45rem auto;
+}
+.detail-wrap .tit input{
+  vertical-align: top;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 0.48rem;
+  border: 1px solid #ffa800;
+  font-size: inherit;
+}
+.zero .dogName{
+  color: #ffc600;
+}
+.summary{
+  margin-top: 0.52rem;
+}
+.summary .info{
+  margin-top: 0.24rem;
+  font-size: 0.28rem;
+  color: #888;
+}
+.summary .info .stg{
+  color: #8F4403;
+}
+.zero .info .stg{
+  color: #ffc600;
+}
+.summary .info .stg:nth-child(1):after,
+.summary .info .stg:nth-child(2):after {
+  content: '';
+  position: relative;
+  top: -0.02rem;
+  display: inline-block;
+  width: 0.04rem;
+  height: 0.04rem;
+  border-radius: 50%;
+  margin-left: 0.12rem;
+  background-color: #DFDFDF;
+  vertical-align: middle;
+}
+.summary .info span{
+  margin-right: 0.12rem;
+}
+.summary .info .rest{
+  padding-right: 0.4rem;
+  background: url(../../images/icon-hint2.png) no-repeat right center;
+  background-size: 0.28rem auto;
+  text-decoration: none;
+  color: inherit;
+}
+.summary .master-info{
+  margin-top: 0.6rem;
+  font-size: 0.32rem;
+  overflow: hidden;
+}
+.summary .master-info .pic{
+  float: left;
+  margin-right: 0.18rem;
+}
+.summary .master-info img{
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: top;
+}
+.summary .master-info .txt{
+  padding-top: 0.2rem;
+  color: #592900;
+  overflow: hidden;
+}
+.summary .master-info .tag{
+  font-size: 0.28rem;
+  color: #914400;
+  margin-top: 0.06rem;
+}
+.assist{
+  font-size: 0.24rem;
+  line-height: 1;
+  margin-top: 0.22rem;
+  background-color: #F1F1F1;
+  padding: 0.15rem 0;
+}
+.assist .btn{
+  display: inline-block;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.36rem;
+  padding: 0.12rem 0.22rem 0.12rem 0.56rem;
+  background: url(../../images/icon-heart.png) no-repeat 0.2rem center;
+  background-size: 0.26rem;
+}
+.assist .btn span{
+  margin-left: 0.14rem;
+}
+.forthwith{
+  padding-top: 0.32rem;
+}
+.forthwith .tit{
+  font-size: 0.32rem;
+}
+.forthwith .price{
+  font-weight: bold;
+  margin-top: 0.1rem;
+  padding-left: 0.3rem;
+  background: url(../../images/icon-menu2.png) no-repeat left center;
+  background-size: 0.2rem;
+}
+.surplus{
+  margin-top: 0.42rem;
+  font-size: 0.24rem;
+  color: #888;
+}
+.surplus .time{
+  font-size: 0.3rem;
+  margin-top: 0.1rem;
+}
+.detail-wrap .btn-wrap{
+  margin-top: 0.56rem;
+}
+.detail-wrap .btn-wrap2{
+  margin-top: 0.35rem;
+}
+.detail-wrap .btn-wrap2 .btn-def{
+  display: inline-block;
+  height: auto;
+  line-height: 0.6rem;
+  font-size: 0.28rem;
+  padding: 0 0.28rem;
+  margin-right: 0.15rem;
+}
+.price-chart .chart{
+  height: 250px;
+}
+.petAttr {
+  margin-top: 0.3rem;
+}
+.petAttr .list{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+  overflow: hidden;
+}
+.petAttr .list img{
+  width: 0.8rem;
+  height: 0.8rem;
+}
+// .petAttr .list li{
+//   float: left;
+//   width: 2.5rem;
+//   margin-top: 0.18rem;
+//   overflow: hidden;
+// }
+// .petAttr .list .pic{
+//   float: left;
+//   margin-right: 0.12rem;
+// }
+// .petAttr .list img{
+//   width: 0.8rem;
+//   height: 0.8rem;
+// }
+// .petAttr .list .txt{
+//   padding-top: 0.1rem;
+//   font-size: 0.28rem;
+//   color: #592900;
+// }
+// .petAttr .list .attr{
+//   color: #8f4403;
+// }
+// .petAttr .icon-hint2{
+//   margin-left: 0.16rem;
+// }
+.icon-hint2:before{
+  content: '';
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  width: 0.22rem;
+  height: 0.22rem;
+  background: url(../../images/icon-hint2.png) no-repeat center;
+  background-size:0.22rem;
+}
+.petFamily{
+  margin-top: 0.4rem;
+}
+.petFamily .list{
+  margin-top: 0.3rem;
+  overflow: hidden;
+}
+.petFamily .list li{
+  float: left;
+  width: 2.9rem;
+  height: 2.72rem;
+  margin-right: 0.22rem;
+  border-radius: 0.1rem;
+}
+.petFamily .list a{
+  height: 100%;
+}
+.petFamily .list img{
+  width: 1.8rem;
+  height: 2.14rem;
+}
+
