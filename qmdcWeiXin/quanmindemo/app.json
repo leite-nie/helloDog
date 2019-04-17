@@ -2,15 +2,15 @@
   "pages": [
     
     
-    
+    "pages/pay/pay",
     "pages/index/bike",
     "pages/riding/index",
     "pages/attestation/step3",
     "pages/attestation/step2",
     "pages/attestation/step1",
-    "pages/pay/pay",
+    
+    
     "pages/riding/ridingend",
-  
     "pages/login/login",  
     
     "pages/login/agree",

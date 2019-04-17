@@ -51,7 +51,7 @@ $.ajaxSetup({
 
 //http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js
 window.addEventListener('load', function(event,callback) {
-    //addEventBack(event,callback);
+    addEventBack(event,callback);
 });
 
 window.addEventBack =function(callback){

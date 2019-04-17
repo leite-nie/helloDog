@@ -48,7 +48,7 @@ var app_config = {
     publicPath: '../',
 }
 // 开发环境
-var config = pro_config;
+var config = dev_config;
 // 发布到 H5 测试
 // var config = pro_test_config;
 // 发布到 app 测试
@@ -62,35 +62,21 @@ var webpackConfig = {
     devtool: config.devtool,
     //devtool: 'source-map',
     entry: { //配置入口文件，有几个写几个
-        begin : './src/js/wallet/begin.js',
-        index : './src/js/index/index.js',
-        detail : './src/js/index/detail.js',
-        saleIng : './src/js/index/saleIng.js',
-        rest : './src/js/index/rest.js',
-        breed : './src/js/index/breed.js',
-        mating : './src/js/index/mating.js',
-        winning : './src/js/index/winning.js',
-        acquire : './src/js/index/acquire.js',
-        award : './src/js/award/award.js',
-        history : './src/js/award/history.js',
-        awardExplain : './src/js/award/awardExplain.js',
-        myDog : './src/js/myDog/myDog.js',
-        myself : './src/js/myself/myself.js',
-        earnings : './src/js/myself/earnings.js',
-        extract : './src/js/myself/extract.js',
-        translist : './src/js/myself/translist.js',
-        notice : './src/js/myself/notice.js',
-        playing : './src/js/myself/playing.js',
-        question : './src/js/myself/question.js',
-        setting : './src/js/myself/setting.js',
-        feedback : './src/js/myself/feedback.js',
-        invite : './src/js/myself/invite.js',
-        transfer : './src/js/myself/transfer.js',
-        ogclist : './src/js/myself/ogclist.js',
-        myWallet : './src/js/wallet/myWallet.js',
-        importWallet : './src/js/wallet/importWallet.js',
-
-        worldcup : './src/js/worldcup/worldcup.js',
+       index: './src/js/index/index.js',
+        list: './src/js/list/list.js',
+        login : './src/js/account/login.js',
+        translist : './src/js/account/tlist.js',
+        petCenter : './src/js/mydog/petCenter.js',
+        petInfo : './src/js/mydog/petInfo.js',
+        mating : './src/js/mydog/mating.js',
+        buying : './src/js/list/buying.js',
+        earning:'./src/js/account/earnings.js',
+        redeem: './src/js/account/redeem.js',
+        winning: './src/js/account/winning.js',
+        breed : './src/js/list/breed.js',
+        logs : './src/js/index/logs.js',
+        notice : './src/js/index/notice.js',
+        account: './src/js/account/account.js',
 
 
 
@@ -207,7 +193,7 @@ var webpackConfig = {
         new webpack.optimize.CommonsChunkPlugin({
             name: 'vendors', // 将公共模块提取，生成名为`vendors`的chunk
 
-            chunks: ['begin','worldcup','myWallet','ogclist','importWallet','index','detail','saleIng','rest','breed', 'acquire', 'mating','winning','award','history','awardExplain','myDog','myself','earnings', 'extract', 'translist', 'notice', 'playing', 'question','setting','invite', 'feedback','transfer'], //提取哪些模块共有的部分
+            chunks: ['index','list','mydog'],
             minChunks: 5 // 提取至少3个模块共有的部分
 
         }),
@@ -217,179 +203,66 @@ var webpackConfig = {
             disable: process.env.NODE_ENV === "development"
         }), //单独使用link标签加载css并设置路径，相对于output配置中的publickPath
 
-        new HtmlWebpackPlugin({
-            filename: './wallet/begin.html',
-            template: './src/view/wallet/begin.html',
-            hash: true,
-            chunks: ['vendors','begin']
-        }),
-        
-        new HtmlWebpackPlugin({
-            filename: './index.html',
-            template: './src/view/index/index.html',
-            hash: true,
-            chunks: ['vendors','index']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './wallet/myWallet.html',
-            template: './src/view/wallet/myWallet.html',
-            hash: true,
-            chunks: ['vendors','myWallet']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './wallet/importWallet.html',
-            template: './src/view/wallet/importWallet.html',
-            hash: true,
-            chunks: ['vendors','importWallet']
-        }),
-            
-        new HtmlWebpackPlugin({
-            filename: './index/detail.html',
-            template: './src/view/index/detail.html',
-            hash: true,
-            chunks: ['vendors','detail']
+        new HtmlWebpackPlugin({ //根据模板插入css/js等生成最终HTML
+            //favicon: './src/img/favicon.ico', //favicon路径，通过webpack引入同时可以生成hash值
+            filename: './index.html', //生成的html存放路径，相对于path
+            template: './src/view/index/index.html', //html模板路径
+            //inject: 'body', //js插入的位置，true/'head'/'body'/false
+            hash: true, //为静态资源生成hash值
+            chunks: ['vendors','index'],//需要引入的chunk，不配置就会引入所有页面的资源
+            //minify: { //压缩HTML文件
+            //    removeComments: true, //移除HTML中的注释
+            //    collapseWhitespace: false //删除空白符与换行符
+            //}
         }),
 
         new HtmlWebpackPlugin({
-            filename: './index/saleIng.html',
-            template: './src/view/index/saleIng.html',
+            filename: './list/list.html',
+            template: './src/view/list/list.html',
             hash: true,
-            chunks: ['vendors','saleIng']
+            chunks: ['vendors','list']
         }),
         new HtmlWebpackPlugin({
-            filename: './index/rest.html',
-            template: './src/view/index/rest.html',
+            filename: './account/login.html',
+            template: './src/view/account/login.html',
             hash: true,
-            chunks: ['vendors','rest']
+            chunks: ['vendors','login']
         }),
+
         new HtmlWebpackPlugin({
-            filename: './index/breed.html',
-            template: './src/view/index/breed.html',
-            hash: true,
-            chunks: ['vendors','breed']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './index/mating.html',
-            template: './src/view/index/mating.html',
-            hash: true,
-            chunks: ['vendors','mating']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './index/winning.html',
-            template: './src/view/index/winning.html',
-            hash: true,
-            chunks: ['vendors','winning']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './index/acquire.html',
-            template: './src/view/index/acquire.html',
-            hash: true,
-            chunks: ['vendors','acquire']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './award/award.html',
-            template: './src/view/award/award.html',
-            hash: true,
-            chunks: ['vendors','award']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './award/history.html',
-            template: './src/view/award/history.html',
-            hash: true,
-            chunks: ['vendors','history']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './award/awardExplain.html',
-            template: './src/view/award/awardExplain.html',
-            hash: true,
-            chunks: ['vendors','awardExplain']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myDog/myDog.html',
-            template: './src/view/myDog/myDog.html',
-            hash: true,
-            chunks: ['vendors','myDog']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myself/myself.html',
-            template: './src/view/myself/myself.html',
-            hash: true,
-            chunks: ['vendors','myself']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myself/notice.html',
-            template: './src/view/myself/notice.html',
-            hash: true,
-            chunks: ['vendors','notice']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myself/playing.html',
-            template: './src/view/myself/playing.html',
-            hash: true,
-            chunks: ['vendors','playing']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myself/earnings.html',
-            template: './src/view/myself/earnings.html',
-            hash: true,
-            chunks: ['vendors','earnings']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myself/extract.html',
-            template: './src/view/myself/extract.html',
-            hash: true,
-            chunks: ['vendors','extract']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myself/translist.html',
-            template: './src/view/myself/translist.html',
+            filename: './account/translist.html',
+            template: './src/view/account/tlist.html',
             hash: true,
             chunks: ['vendors','translist']
         }),
         new HtmlWebpackPlugin({
-            filename: './myself/question.html',
-            template: './src/view/myself/question.html',
+            filename: './mydog/petCenter.html',
+            template: './src/view/mydog/petCenter.html',
             hash: true,
-            chunks: ['vendors','question']
+            chunks: ['vendors','petCenter']
         }),
         new HtmlWebpackPlugin({
-            filename: './myself/setting.html',
-            template: './src/view/myself/setting.html',
+            filename: './mydog/petInfo.html',
+            template: './src/view/mydog/petInfo.html',
             hash: true,
-            chunks: ['vendors','setting']
+            chunks: ['vendors','petInfo']
         }),
         new HtmlWebpackPlugin({
-            filename: './myself/invite.html',
-            template: './src/view/myself/invite.html',
+            filename: './mydog/mating.html',
+            template: './src/view/mydog/mating.html',
             hash: true,
-            chunks: ['vendors','invite']
+            chunks: ['vendors','mating']
         }),
         new HtmlWebpackPlugin({
-            filename: './myself/feedback.html',
-            template: './src/view/myself/feedback.html',
+            filename: './list/buying.html',
+            template: './src/view/list/buying.html',
             hash: true,
-            chunks: ['vendors','feedback']
+            chunks: ['vendors','buying']
         }),
-        new HtmlWebpackPlugin({
-            filename: './myself/transfer.html',
-            template: './src/view/myself/transfer.html',
-            hash: true,
-            chunks: ['vendors','transfer']
-        }),
-        new HtmlWebpackPlugin({
-            filename: './myself/ogclist.html',
-            template: './src/view/myself/ogclist.html',
-            hash: true,
-            chunks: ['vendors','ogclist']
-        }),
-
-        new HtmlWebpackPlugin({
-            filename: './worldcup/index.html',
-            template: './src/view/worldcup/index.html',
-            hash: true,
-            chunks: ['vendors','worldcup']
-        }),
-
+        
+        
+        
+        
        
         new webpack.HotModuleReplacementPlugin() //热加载
     ],
@@ -398,8 +271,8 @@ var webpackConfig = {
     
     devServer: {
          contentBase: './dist/',
-         host: '192.168.1.70',
-         port: 8082, //默认8080
+         host: 'localhost',
+         port: 8081, //默认8080
          inline: true, //可以监控js变化
          hot: true, //热启动
      }
